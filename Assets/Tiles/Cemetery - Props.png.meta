@@ -1,0 +1,755 @@
+fileFormatVersion: 2
+guid: 280e55dba2e2b1c4a9b6ef25267695c2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6761266730536185503
+    second: Cemetery - Props_0
+  - first:
+      213: -8047774010052862525
+    second: Cemetery - Props_1
+  - first:
+      213: 1292398037660052741
+    second: Cemetery - Props_2
+  - first:
+      213: 4084960685293506017
+    second: Cemetery - Props_3
+  - first:
+      213: -1018104114279573013
+    second: Cemetery - Props_4
+  - first:
+      213: -5002753278431395770
+    second: Cemetery - Props_5
+  - first:
+      213: -5089414468855467538
+    second: Cemetery - Props_6
+  - first:
+      213: 5972019411140310769
+    second: Cemetery - Props_7
+  - first:
+      213: 5034484262466645804
+    second: Cemetery - Props_8
+  - first:
+      213: 6222034573297718669
+    second: Cemetery - Props_9
+  - first:
+      213: -9158198716041621443
+    second: Cemetery - Props_10
+  - first:
+      213: 7576430988695078255
+    second: Cemetery - Props_11
+  - first:
+      213: -6712814915661712664
+    second: Cemetery - Props_12
+  - first:
+      213: 4067042012796992486
+    second: Cemetery - Props_13
+  - first:
+      213: 4061560014915966670
+    second: Cemetery - Props_14
+  - first:
+      213: 8599440202084057505
+    second: Cemetery - Props_15
+  - first:
+      213: 4447605149404270427
+    second: Cemetery - Props_16
+  - first:
+      213: -2062227750710594252
+    second: Cemetery - Props_17
+  - first:
+      213: 2450729592257747967
+    second: Cemetery - Props_18
+  - first:
+      213: -4278398384647132597
+    second: Cemetery - Props_19
+  - first:
+      213: 2121231207318218122
+    second: Cemetery - Props_20
+  - first:
+      213: 7291075995576275014
+    second: Cemetery - Props_21
+  - first:
+      213: -4982437463663978848
+    second: Cemetery - Props_22
+  - first:
+      213: -9041975317361201510
+    second: Cemetery - Props_23
+  - first:
+      213: 1346345353698175756
+    second: Cemetery - Props_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cemetery - Props_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 271
+        width: 53
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16159b63bb72b22a0800000000000000
+      internalID: -6761266730536185503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cemetery - Props_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 351
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd9d224d20905090800000000000000
+      internalID: -8047774010052862525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cemetery - Props_2
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 357
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50da327fa258fe110800000000000000
+      internalID: 1292398037660052741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cemetery - Props_3
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 357
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed0b58a912b0b830800000000000000
+      internalID: 4084960685293506017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cemetery - Props_4
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 361
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be99004c3b7fed1f0800000000000000
+      internalID: -1018104114279573013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cemetery - Props_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 317
+        width: 16
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6400d242666a29ab0800000000000000
+      internalID: -5002753278431395770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cemetery - Props_6
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 319
+        width: 13
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee1f2256184ce59b0800000000000000
+      internalID: -5089414468855467538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cemetery - Props_7
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 319
+        width: 33
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f671c86300e0e250800000000000000
+      internalID: 5972019411140310769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cemetery - Props_8
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 309
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f6e9b43c41ed540800000000000000
+      internalID: 5034484262466645804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cemetery - Props_9
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 336
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d851c998a7b195650800000000000000
+      internalID: 6222034573297718669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cemetery - Props_10
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 319
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3096eb3aca87e080800000000000000
+      internalID: -9158198716041621443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cemetery - Props_11
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 230
+        width: 28
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f658e62b7d3e42960800000000000000
+      internalID: 7576430988695078255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cemetery - Props_12
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 305
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e23a05766a47d2a0800000000000000
+      internalID: -6712814915661712664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cemetery - Props_13
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 307
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ebba5b9929017830800000000000000
+      internalID: 4067042012796992486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cemetery - Props_14
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 308
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec61ff2805f8d5830800000000000000
+      internalID: 4061560014915966670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cemetery - Props_15
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 307
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a10f605d49575770800000000000000
+      internalID: 8599440202084057505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cemetery - Props_16
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 307
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f8077a15119bd30800000000000000
+      internalID: 4447605149404270427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cemetery - Props_17
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 209
+        width: 80
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43531f079ce7163e0800000000000000
+      internalID: -2062227750710594252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cemetery - Props_18
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 291
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffb9f03649db20220800000000000000
+      internalID: 2450729592257747967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cemetery - Props_19
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 291
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4aa08b465310a4c0800000000000000
+      internalID: -4278398384647132597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cemetery - Props_20
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 291
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a85eca65b80207d10800000000000000
+      internalID: 2121231207318218122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cemetery - Props_21
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 292
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64093bafcfa1f2560800000000000000
+      internalID: 7291075995576275014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cemetery - Props_22
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 230
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a6d5be5683dadab0800000000000000
+      internalID: -4982437463663978848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cemetery - Props_23
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 143
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9ee5d4fa53748280800000000000000
+      internalID: -9041975317361201510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cemetery - Props_24
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 143
+        width: 34
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b6d2847fd2fa210800000000000000
+      internalID: 1346345353698175756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

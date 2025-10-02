@@ -1,0 +1,3855 @@
+fileFormatVersion: 2
+guid: b3f19201dcb3c304e881bee222d0d339
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3933037742490772148
+    second: Forest Tree_0
+  - first:
+      213: 7132630891510414947
+    second: Forest Tree_1
+  - first:
+      213: -1200216539429750581
+    second: Forest Tree_2
+  - first:
+      213: -6325768325086966320
+    second: Forest Tree_3
+  - first:
+      213: 6328010663431737206
+    second: Forest Tree_4
+  - first:
+      213: 6381081773995329848
+    second: Forest Tree_5
+  - first:
+      213: 5255357351910966636
+    second: Forest Tree_6
+  - first:
+      213: 6683348835667648890
+    second: Forest Tree_7
+  - first:
+      213: -7365180391885732071
+    second: Forest Tree_8
+  - first:
+      213: -1400707456518110611
+    second: Forest Tree_9
+  - first:
+      213: 8968112206237775625
+    second: Forest Tree_10
+  - first:
+      213: -4938107778252488508
+    second: Forest Tree_11
+  - first:
+      213: 5173323902645930606
+    second: Forest Tree_12
+  - first:
+      213: -3976822294745528239
+    second: Forest Tree_13
+  - first:
+      213: -2161771446649300059
+    second: Forest Tree_14
+  - first:
+      213: 4104723587138491041
+    second: Forest Tree_15
+  - first:
+      213: -4808680071910020156
+    second: Forest Tree_16
+  - first:
+      213: -5608101789764518456
+    second: Forest Tree_17
+  - first:
+      213: -2216849910779468497
+    second: Forest Tree_18
+  - first:
+      213: -2541449197346643672
+    second: Forest Tree_19
+  - first:
+      213: 4079664836117621632
+    second: Forest Tree_20
+  - first:
+      213: 318043023068137285
+    second: Forest Tree_21
+  - first:
+      213: 9187019481899484825
+    second: Forest Tree_22
+  - first:
+      213: 2540165599198320321
+    second: Forest Tree_23
+  - first:
+      213: -4436038243558687633
+    second: Forest Tree_24
+  - first:
+      213: 7162687648203031490
+    second: Forest Tree_25
+  - first:
+      213: 4672671128901324108
+    second: Forest Tree_26
+  - first:
+      213: 1570156096915693161
+    second: Forest Tree_27
+  - first:
+      213: 8893930716898592773
+    second: Forest Tree_28
+  - first:
+      213: -3188893363483338325
+    second: Forest Tree_29
+  - first:
+      213: 7911239071057223739
+    second: Forest Tree_30
+  - first:
+      213: 1076825601829007584
+    second: Forest Tree_31
+  - first:
+      213: 1425464007128525463
+    second: Forest Tree_32
+  - first:
+      213: -6111392423228057983
+    second: Forest Tree_33
+  - first:
+      213: 7638971040189051172
+    second: Forest Tree_34
+  - first:
+      213: -1960691635753384128
+    second: Forest Tree_35
+  - first:
+      213: -3162333657223043866
+    second: Forest Tree_36
+  - first:
+      213: -3588753629529261314
+    second: Forest Tree_37
+  - first:
+      213: -5412293665715109454
+    second: Forest Tree_38
+  - first:
+      213: -7909557413439113589
+    second: Forest Tree_39
+  - first:
+      213: -4694722070834880281
+    second: Forest Tree_40
+  - first:
+      213: 8538006468504355594
+    second: Forest Tree_41
+  - first:
+      213: -4763468678757952731
+    second: Forest Tree_42
+  - first:
+      213: 5237367655601535466
+    second: Forest Tree_43
+  - first:
+      213: -1404395532098775083
+    second: Forest Tree_44
+  - first:
+      213: -47465327351631852
+    second: Forest Tree_45
+  - first:
+      213: -2369363891347159423
+    second: Forest Tree_46
+  - first:
+      213: 1812756415659135815
+    second: Forest Tree_47
+  - first:
+      213: -9223070402753578143
+    second: Forest Tree_48
+  - first:
+      213: 7852628651776120160
+    second: Forest Tree_49
+  - first:
+      213: -5217630557128618641
+    second: Forest Tree_50
+  - first:
+      213: -5990652994138092896
+    second: Forest Tree_51
+  - first:
+      213: 1395398973502164334
+    second: Forest Tree_52
+  - first:
+      213: 3643793520096296745
+    second: Forest Tree_53
+  - first:
+      213: 4420343889119715819
+    second: Forest Tree_54
+  - first:
+      213: 8212948187465283165
+    second: Forest Tree_55
+  - first:
+      213: 3637497640657875690
+    second: Forest Tree_56
+  - first:
+      213: 4392435109878878797
+    second: Forest Tree_57
+  - first:
+      213: -1803334790494469279
+    second: Forest Tree_58
+  - first:
+      213: -1002832517872878602
+    second: Forest Tree_59
+  - first:
+      213: -2261230884971464671
+    second: Forest Tree_60
+  - first:
+      213: -800766529723786030
+    second: Forest Tree_61
+  - first:
+      213: -4847321168760785361
+    second: Forest Tree_62
+  - first:
+      213: -2833306227840157528
+    second: Forest Tree_63
+  - first:
+      213: -151418248384791595
+    second: Forest Tree_64
+  - first:
+      213: 6728387839500386175
+    second: Forest Tree_65
+  - first:
+      213: 867215816460556358
+    second: Forest Tree_66
+  - first:
+      213: 6484134789597375148
+    second: Forest Tree_67
+  - first:
+      213: 6894838000586070875
+    second: Forest Tree_68
+  - first:
+      213: 4210581314357211750
+    second: Forest Tree_69
+  - first:
+      213: -855345367745775742
+    second: Forest Tree_70
+  - first:
+      213: 7481636343694534992
+    second: Forest Tree_71
+  - first:
+      213: 7582627498263543500
+    second: Forest Tree_72
+  - first:
+      213: -5966415227224103916
+    second: Forest Tree_73
+  - first:
+      213: 6659160177740586933
+    second: Forest Tree_74
+  - first:
+      213: 1868221836341954272
+    second: Forest Tree_75
+  - first:
+      213: 6735877562512142216
+    second: Forest Tree_76
+  - first:
+      213: -5440063340776230187
+    second: Forest Tree_77
+  - first:
+      213: 2213634921943000352
+    second: Forest Tree_78
+  - first:
+      213: 8502502421175801728
+    second: Forest Tree_79
+  - first:
+      213: 8008747081847688150
+    second: Forest Tree_80
+  - first:
+      213: 1351062784671319700
+    second: Forest Tree_81
+  - first:
+      213: 783172023261625329
+    second: Forest Tree_82
+  - first:
+      213: 9007481943185625862
+    second: Forest Tree_83
+  - first:
+      213: 3080614852863883027
+    second: Forest Tree_84
+  - first:
+      213: 4853159048056558365
+    second: Forest Tree_85
+  - first:
+      213: 1555195189601517716
+    second: Forest Tree_86
+  - first:
+      213: -1256134062657736105
+    second: Forest Tree_87
+  - first:
+      213: -403850765273526517
+    second: Forest Tree_88
+  - first:
+      213: 7852756740772536978
+    second: Forest Tree_89
+  - first:
+      213: 1602509120479707767
+    second: Forest Tree_90
+  - first:
+      213: -8357527677537105348
+    second: Forest Tree_91
+  - first:
+      213: 8262314435681181032
+    second: Forest Tree_92
+  - first:
+      213: -7818636086894115974
+    second: Forest Tree_93
+  - first:
+      213: -1550398445707282890
+    second: Forest Tree_94
+  - first:
+      213: -8420566820524452863
+    second: Forest Tree_95
+  - first:
+      213: -2710248400928712017
+    second: Forest Tree_96
+  - first:
+      213: -1110048880418710198
+    second: Forest Tree_97
+  - first:
+      213: -2406937019955420653
+    second: Forest Tree_98
+  - first:
+      213: 8073770868107372363
+    second: Forest Tree_99
+  - first:
+      213: -3067851208240598438
+    second: Forest Tree_100
+  - first:
+      213: -3700860965319591940
+    second: Forest Tree_101
+  - first:
+      213: -8803392819888907825
+    second: Forest Tree_102
+  - first:
+      213: 6159533574935113497
+    second: Forest Tree_103
+  - first:
+      213: -6132040067106273335
+    second: Forest Tree_104
+  - first:
+      213: 2020446867090727775
+    second: Forest Tree_105
+  - first:
+      213: -1376015898237329310
+    second: Forest Tree_106
+  - first:
+      213: 4386295074596332245
+    second: Forest Tree_107
+  - first:
+      213: -7323345860870634849
+    second: Forest Tree_108
+  - first:
+      213: 3481272192660186302
+    second: Forest Tree_109
+  - first:
+      213: -3294049868746296986
+    second: Forest Tree_110
+  - first:
+      213: 139302447950092029
+    second: Forest Tree_111
+  - first:
+      213: -670452672919436635
+    second: Forest Tree_112
+  - first:
+      213: -5470579159525965360
+    second: Forest Tree_113
+  - first:
+      213: 4603094015880290896
+    second: Forest Tree_114
+  - first:
+      213: -5430051280270458362
+    second: Forest Tree_115
+  - first:
+      213: 7729303908349073309
+    second: Forest Tree_116
+  - first:
+      213: 4344535194052028786
+    second: Forest Tree_117
+  - first:
+      213: 2558745150118895868
+    second: Forest Tree_118
+  - first:
+      213: -2321937585291931211
+    second: Forest Tree_119
+  - first:
+      213: -2445256952145707728
+    second: Forest Tree_120
+  - first:
+      213: 8860413169177374316
+    second: Forest Tree_121
+  - first:
+      213: 1582957094467946716
+    second: Forest Tree_122
+  - first:
+      213: -7737251982205922531
+    second: Forest Tree_123
+  - first:
+      213: -1320290608032162837
+    second: Forest Tree_124
+  - first:
+      213: 6243094737350931286
+    second: Forest Tree_125
+  - first:
+      213: 1486344521646757692
+    second: Forest Tree_126
+  - first:
+      213: 6004052625292605662
+    second: Forest Tree_127
+  - first:
+      213: -8852540208850286579
+    second: Forest Tree_128
+  - first:
+      213: -4939468416771677127
+    second: Forest Tree_129
+  - first:
+      213: 1266802870090155356
+    second: Forest Tree_130
+  - first:
+      213: 5540059348017124309
+    second: Forest Tree_131
+  - first:
+      213: 6498251803447892385
+    second: Forest Tree_132
+  - first:
+      213: -5945810768051722359
+    second: Forest Tree_133
+  - first:
+      213: -3985896442487781924
+    second: Forest Tree_134
+  - first:
+      213: 2586251945865986869
+    second: Forest Tree_135
+  - first:
+      213: 5417176878842307804
+    second: Forest Tree_136
+  - first:
+      213: -8065081240768457172
+    second: Forest Tree_137
+  - first:
+      213: -387421290882273927
+    second: Forest Tree_138
+  - first:
+      213: -5308589279287309552
+    second: Forest Tree_139
+  - first:
+      213: 2549614337007784666
+    second: Forest Tree_140
+  - first:
+      213: -7635592661597423301
+    second: Forest Tree_141
+  - first:
+      213: -1624329345175722975
+    second: Forest Tree_142
+  - first:
+      213: -4580414337910433311
+    second: Forest Tree_143
+  - first:
+      213: 5795395024901211797
+    second: Forest Tree_144
+  - first:
+      213: 2088608278386667926
+    second: Forest Tree_145
+  - first:
+      213: -8479697441699081982
+    second: Forest Tree_146
+  - first:
+      213: 5066258691486817846
+    second: Forest Tree_147
+  - first:
+      213: 5616545420190822270
+    second: Forest Tree_148
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Forest Tree_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1439
+        width: 188
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d12a6e20b0b69c0800000000000000
+      internalID: -3933037742490772148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_1
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 1439
+        width: 135
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36eb47a61023cf260800000000000000
+      internalID: 7132630891510414947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_2
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1439
+        width: 113
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc8bdb99a69f75fe0800000000000000
+      internalID: -1200216539429750581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_3
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1439
+        width: 52
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd06c3493b5638a0800000000000000
+      internalID: -6325768325086966320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_4
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1439
+        width: 42
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67f8bb0db2c91d750800000000000000
+      internalID: 6328010663431737206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_5
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1439
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83906b5a0182e8850800000000000000
+      internalID: 6381081773995329848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_6
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1455
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c650460eaa7cee840800000000000000
+      internalID: 5255357351910966636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_7
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1439
+        width: 188
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71adfb2b5600cc50800000000000000
+      internalID: 6683348835667648890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_8
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 1439
+        width: 135
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9178afab47f99c990800000000000000
+      internalID: -7365180391885732071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_9
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 1439
+        width: 113
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d624ff35dffaf8ce0800000000000000
+      internalID: -1400707456518110611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_10
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 1439
+        width: 52
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 907b5a65982257c70800000000000000
+      internalID: 8968112206237775625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_11
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 1439
+        width: 42
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c0caae8321587bb0800000000000000
+      internalID: -4938107778252488508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_12
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 1439
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6a8f351ea65bc740800000000000000
+      internalID: 5173323902645930606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_13
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 1455
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 158c6da613d7fc8c0800000000000000
+      internalID: -3976822294745528239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_14
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1439
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5abd2e4a258dff1e0800000000000000
+      internalID: -2161771446649300059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_15
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 1439
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a29e80da58e6f830800000000000000
+      internalID: 4104723587138491041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1215
+        width: 188
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cbad4bb3f2244db0800000000000000
+      internalID: -4808680071910020156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_17
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 1215
+        width: 135
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd7adc92250c22b0800000000000000
+      internalID: -5608101789764518456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_18
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1215
+        width: 113
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2522a360ca2c31e0800000000000000
+      internalID: -2216849910779468497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_19
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1215
+        width: 52
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821a3719b65fabcd0800000000000000
+      internalID: -2541449197346643672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_20
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1215
+        width: 42
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b617fad81ed9830800000000000000
+      internalID: 4079664836117621632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_21
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1215
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5478445c17ae96400800000000000000
+      internalID: 318043023068137285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_22
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1231
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996463b3b89de7f70800000000000000
+      internalID: 9187019481899484825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_23
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1215
+        width: 188
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c612e2772b704320800000000000000
+      internalID: 2540165599198320321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_24
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 1215
+        width: 135
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6cf2aa78b60072c0800000000000000
+      internalID: -4436038243558687633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_25
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 1215
+        width: 113
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c3483c677af66360800000000000000
+      internalID: 7162687648203031490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_26
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 1215
+        width: 52
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d036682a9a8d040800000000000000
+      internalID: 4672671128901324108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_27
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 1215
+        width: 42
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96ed29ea6a05ac510800000000000000
+      internalID: 1570156096915693161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_28
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 1215
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5080dad6dd69d6b70800000000000000
+      internalID: 8893930716898592773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_29
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 1231
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba999f2a166ceb3d0800000000000000
+      internalID: -3188893363483338325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_30
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1215
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b30ae83050e5acd60800000000000000
+      internalID: 7911239071057223739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_31
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 1215
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e0701afd27a1fe00800000000000000
+      internalID: 1076825601829007584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_32
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 991
+        width: 188
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a200946f348c310800000000000000
+      internalID: 1425464007128525463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_33
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 991
+        width: 135
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1865a7a78f8ff2ba0800000000000000
+      internalID: -6111392423228057983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_34
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 991
+        width: 113
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 421f6f320b3130a60800000000000000
+      internalID: 7638971040189051172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_35
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 991
+        width: 52
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04707d078593ac4e0800000000000000
+      internalID: -1960691635753384128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_36
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 991
+        width: 42
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e465f32b422d14d0800000000000000
+      internalID: -3162333657223043866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_37
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 991
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efab385869f223ec0800000000000000
+      internalID: -3588753629529261314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_38
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1007
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b144fa269ba3e4b0800000000000000
+      internalID: -5412293665715109454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_39
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 991
+        width: 188
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b867769607b9b3290800000000000000
+      internalID: -7909557413439113589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_40
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 991
+        width: 135
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e063b8762ff8deb0800000000000000
+      internalID: -4694722070834880281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_41
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 991
+        width: 113
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03803595a71d7670800000000000000
+      internalID: 8538006468504355594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_42
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 991
+        width: 52
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 523deef7972c4edb0800000000000000
+      internalID: -4763468678757952731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_43
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 991
+        width: 42
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae9ff3e422edea840800000000000000
+      internalID: 5237367655601535466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_44
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 991
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d75b1154b5928ce0800000000000000
+      internalID: -1404395532098775083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_45
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 1007
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 410fe08498e575ff0800000000000000
+      internalID: -47465327351631852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_46
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 991
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1868d9028145e1fd0800000000000000
+      internalID: -2369363891347159423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_47
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 991
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7435cab0b54382910800000000000000
+      internalID: 1812756415659135815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_48
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 767
+        width: 188
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b3479a552110080800000000000000
+      internalID: -9223070402753578143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_49
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 767
+        width: 135
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0659b2e57242afc60800000000000000
+      internalID: 7852628651776120160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_50
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 767
+        width: 113
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d002907a04797b0800000000000000
+      internalID: -5217630557128618641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_51
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 767
+        width: 52
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aac4c777dcecdca0800000000000000
+      internalID: -5990652994138092896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_52
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 767
+        width: 42
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d8a8729f37d5310800000000000000
+      internalID: 1395398973502164334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_53
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 767
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92fb530a6ea519230800000000000000
+      internalID: 3643793520096296745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_54
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 783
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be1ac00e857385d30800000000000000
+      internalID: 4420343889119715819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_55
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 767
+        width: 188
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d567e88ccd04af170800000000000000
+      internalID: 8212948187465283165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_56
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 767
+        width: 135
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae2fbb6f4dcfa7230800000000000000
+      internalID: 3637497640657875690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_57
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 767
+        width: 113
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d42d847d57015fc30800000000000000
+      internalID: 4392435109878878797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_58
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 767
+        width: 52
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1634971009449f6e0800000000000000
+      internalID: -1803334790494469279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_59
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 767
+        width: 42
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fbf9f263293512f0800000000000000
+      internalID: -1002832517872878602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_60
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 767
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 128322a9d7e7e90e0800000000000000
+      internalID: -2261230884971464671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_61
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 783
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc9ac7751b13e4f0800000000000000
+      internalID: -800766529723786030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_62
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 767
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2638c7441bdabcb0800000000000000
+      internalID: -4847321168760785361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_63
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 767
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a87fad4ff21ea8d0800000000000000
+      internalID: -2833306227840157528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_64
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 543
+        width: 188
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db3384c7ed06edf0800000000000000
+      internalID: -151418248384791595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_65
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 543
+        width: 135
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f7a7c6719006d50800000000000000
+      internalID: 6728387839500386175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_66
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 543
+        width: 113
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6485bbbb038f80c00800000000000000
+      internalID: 867215816460556358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_67
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 543
+        width: 52
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa24b99c364cf950800000000000000
+      internalID: 6484134789597375148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_68
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 543
+        width: 42
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5b1cc091a26faf50800000000000000
+      internalID: 6894838000586070875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_69
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 543
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662b824956dfe6a30800000000000000
+      internalID: 4210581314357211750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_70
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 559
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 287bc3b7be33124f0800000000000000
+      internalID: -855345367745775742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_71
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 543
+        width: 188
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 059a09c7d9c14d760800000000000000
+      internalID: 7481636343694534992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_72
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 543
+        width: 135
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce7b120987ea3960800000000000000
+      internalID: 7582627498263543500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_73
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 543
+        width: 113
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41463d656f8033da0800000000000000
+      internalID: -5966415227224103916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_74
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 543
+        width: 52
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bf97a066e61a6c50800000000000000
+      internalID: 6659160177740586933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_75
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 543
+        width: 42
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e64ac4acd14de910800000000000000
+      internalID: 1868221836341954272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_76
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 543
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88f6f0474f4aa7d50800000000000000
+      internalID: 6735877562512142216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_77
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 559
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d27869d6330184b0800000000000000
+      internalID: -5440063340776230187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_78
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 543
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 025efc0bb3968be10800000000000000
+      internalID: 2213634921943000352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_79
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 543
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087151467e4fef570800000000000000
+      internalID: 8502502421175801728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_80
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 320
+        width: 188
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db4a7de909c42f60800000000000000
+      internalID: 8008747081847688150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_81
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 320
+        width: 135
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4968595c170ffb210800000000000000
+      internalID: 1351062784671319700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_82
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 320
+        width: 113
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb78844ec26eda00800000000000000
+      internalID: 783172023261625329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_83
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 320
+        width: 52
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60313588a11010d70800000000000000
+      internalID: 9007481943185625862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_84
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 320
+        width: 42
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3177eba03ea80ca20800000000000000
+      internalID: 3080614852863883027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_85
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 320
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1352e9e072e95340800000000000000
+      internalID: 4853159048056558365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_86
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 336
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 490489009c9259510800000000000000
+      internalID: 1555195189601517716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_87
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 319
+        width: 188
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 752740da9b0519ee0800000000000000
+      internalID: -1256134062657736105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_88
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 319
+        width: 135
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f0a916edb356af0800000000000000
+      internalID: -403850765273526517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_89
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 319
+        width: 113
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2922d4966a89afc60800000000000000
+      internalID: 7852756740772536978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_90
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 319
+        width: 52
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 772448bfd814d3610800000000000000
+      internalID: 1602509120479707767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_91
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 319
+        width: 42
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3ac7eb7bd8140c80800000000000000
+      internalID: -8357527677537105348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_92
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 319
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86ddb512433a9a270800000000000000
+      internalID: 8262314435681181032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_93
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 335
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7340a467ef9e7390800000000000000
+      internalID: -7818636086894115974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_94
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 320
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 636bc47f3d0eb7ae0800000000000000
+      internalID: -1550398445707282890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_95
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 319
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 104133f3713242b80800000000000000
+      internalID: -8420566820524452863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_96
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 207
+        width: 70
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faad2995073436ad0800000000000000
+      internalID: -2710248400928712017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_97
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 207
+        width: 57
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d925fac605890f0800000000000000
+      internalID: -1110048880418710198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_98
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 207
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 312e1d86887d89ed0800000000000000
+      internalID: -2406937019955420653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_99
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 243
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b47ef6fe3dbcb0070800000000000000
+      internalID: 8073770868107372363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_100
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 243
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a52f01d849dcc65d0800000000000000
+      internalID: -3067851208240598438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_101
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 243
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf7340f5f86e3acc0800000000000000
+      internalID: -3700860965319591940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_102
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 243
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc91c486fd014d580800000000000000
+      internalID: -8803392819888907825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_103
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 243
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f691cd62f0b7550800000000000000
+      internalID: 6159533574935113497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_104
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 243
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c70ba34c0e96eaa0800000000000000
+      internalID: -6132040067106273335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_105
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 191
+        width: 96
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f536e7888b11a0c10800000000000000
+      internalID: 2020446867090727775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_106
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 191
+        width: 96
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 260264cb4d867ece0800000000000000
+      internalID: -1376015898237329310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_107
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 191
+        width: 96
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d22c5971204fdc30800000000000000
+      internalID: 4386295074596332245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_108
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 163
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f928a738dbf3e5a90800000000000000
+      internalID: -7323345860870634849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_109
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 163
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb4a4f95d96ff4030800000000000000
+      internalID: 3481272192660186302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_110
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 163
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66174f4d81f2942d0800000000000000
+      internalID: -3294049868746296986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_111
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 163
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df6586e96d6eee100800000000000000
+      internalID: 139302447950092029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_112
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 163
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a20def98d212b6f0800000000000000
+      internalID: -670452672919436635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_113
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 211
+        width: 33
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d1ccc02d399414b0800000000000000
+      internalID: -5470579159525965360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_114
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 195
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05265448e9971ef30800000000000000
+      internalID: 4603094015880290896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_115
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 195
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6020357512594a4b0800000000000000
+      internalID: -5430051280270458362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_116
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 95
+        width: 70
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d975f2af3f0044b60800000000000000
+      internalID: 7729303908349073309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_117
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 178
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27967ab9db3ea4c30800000000000000
+      internalID: 4344535194052028786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_118
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 127
+        width: 96
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0279f382d728320800000000000000
+      internalID: 2558745150118895868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_119
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 127
+        width: 96
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b1db0e7112d6cfd0800000000000000
+      internalID: -2321937585291931211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_120
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 127
+        width: 96
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03dfccee1c3b01ed0800000000000000
+      internalID: -2445256952145707728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_121
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 162
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6ea20835d286fa70800000000000000
+      internalID: 8860413169177374316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_122
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 95
+        width: 57
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd8427e271bc7f510800000000000000
+      internalID: 1582957094467946716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_123
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 95
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d13ddeed052cf9490800000000000000
+      internalID: -7737251982205922531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_124
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 83
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beb55fbefa26dade0800000000000000
+      internalID: -1320290608032162837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_125
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 83
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 653b9e6169de3a650800000000000000
+      internalID: 6243094737350931286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_126
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 83
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c375a9aa77e80a410800000000000000
+      internalID: 1486344521646757692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_127
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 83
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed831574d0ea25350800000000000000
+      internalID: 6004052625292605662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_128
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 83
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d08cd933595752580800000000000000
+      internalID: -8852540208850286579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_129
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 145
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 934201735ab737bb0800000000000000
+      internalID: -4939468416771677127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_130
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 129
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c554b20af76949110800000000000000
+      internalID: 1266802870090155356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_131
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 115
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d39421ef9e32ec40800000000000000
+      internalID: 5540059348017124309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_132
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 115
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a99d85069d6e2a50800000000000000
+      internalID: 6498251803447892385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_133
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 63
+        width: 53
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 987a594db9c3c7da0800000000000000
+      internalID: -5945810768051722359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_134
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 63
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd5c502cd404fa8c0800000000000000
+      internalID: -3985896442487781924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_135
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 63
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5334105317634e320800000000000000
+      internalID: 2586251945865986869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_136
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 63
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd4eadc7badad2b40800000000000000
+      internalID: 5417176878842307804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_137
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 3
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2654579753131090800000000000000
+      internalID: -8065081240768457172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_138
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 3
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97de98a736a9f9af0800000000000000
+      internalID: -387421290882273927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_139
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 3
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b02a53d2a1456b0800000000000000
+      internalID: -5308589279287309552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_140
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 3
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad297972bbc026320800000000000000
+      internalID: 2549614337007784666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_141
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 3
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b39f7ebedece80690800000000000000
+      internalID: -7635592661597423301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_142
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 3
+        width: 177
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 124ee8e01193579e0800000000000000
+      internalID: -1624329345175722975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_143
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 3
+        width: 177
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e91eb08d691f60c0800000000000000
+      internalID: -4580414337910433311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_144
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 3
+        width: 177
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5968d40e1116d6050800000000000000
+      internalID: 5795395024901211797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_145
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 15
+        width: 70
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6917d2cc92a3cfc10800000000000000
+      internalID: 2088608278386667926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_146
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 15
+        width: 56
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201dcb8aa10125a80800000000000000
+      internalID: -8479697441699081982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_147
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 31
+        width: 40
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63e9e4e0077fe4640800000000000000
+      internalID: 5066258691486817846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Tree_148
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 31
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f225b4d4af1fd40800000000000000
+      internalID: 5616545420190822270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
