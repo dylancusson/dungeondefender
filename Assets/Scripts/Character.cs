@@ -1,69 +1,114 @@
 using UnityEngine;
+using System.Collections; // Required for Invoke/Coroutines
 
 public class Character : MonoBehaviour
 {
-    public float moveSpeed = 5f;
-    public float attackSpeed = 1f;
-    public int maxHealth = 100;
-    private int currentHealth;
-    public float attackRange = 2f;
-    public float detectionRadius = 10f;
-    public string targetTag = "Player"; // Tag of the target to detect
-    public bool isAlive = true;
+    // References to other components
+    private CharacterStats stats;
+    private CharacterHealth health;
+    private CharacterTargeting targeting;
+
+    // Attack state control
     public bool canAttack = true;
 
-    public Transform target; // Target location to move towards
+    // Define the States
     public enum State { idle, moving, attacking, special, dead }
     public State currentState = State.idle;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void Awake()
     {
-        currentHealth = maxHealth;
+        // Get references to all sibling components
+        stats = GetComponent<CharacterStats>();
+        health = GetComponent<CharacterHealth>();
+        targeting = GetComponent<CharacterTargeting>();
     }
 
-    // Update is called once per frame
+    // Public method to allow other components (like Health) to change the state
+    public void SetState(State newState)
+    {
+        currentState = newState;
+        Debug.Log(gameObject.name + " State changed to: " + currentState);
+    }
+
     void Update()
     {
+        
         switch (currentState)
         {
             case State.idle:
-                FindTarget();
+                targeting.FindTarget();
                 break;
+
             case State.moving:
-                //MoveTowardsTarget();
+                if (targeting.target == null)
+                {
+                    SetState(State.idle);
+                }
+                else if (targeting.IsTargetInAttackRange())
+                {
+                    SetState(State.attacking);
+                }
+                // else { /* MoveTowardsTarget() using stats.currentMoveSpeed */ }
                 break;
+
             case State.attacking:
-                //Attack();
+                if (targeting.target == null || !targeting.IsTargetInAttackRange())
+                {
+                    SetState(State.moving); // Target moved out of range
+                }
+                else if (stats.currentMana >= stats.maxMana)
+                {
+                    SetState(State.special);
+                }
+                else if (canAttack)
+                {
+                    Attack();
+                    stats.GainMana();
+                }
                 break;
+
             case State.special:
-                //SpecialAbility();
+                // SpecialAbility();
+                Debug.Log("Using special ability!");
+                stats.currentMana = 0;
+                SetState(State.moving); // Or idle, depending on your design
                 break;
+
             case State.dead:
-                //Die();
+                // Die();
+                Destroy(this);
                 break;
         }
     }
 
-    void FindTarget()
+    // Attacking logic remains here as it ties movement, stats, and health together
+    void Attack()
     {
-        Collider2D[] hitColliders = Physics2D.OverlapCircleAll(transform.position, detectionRadius);
-        foreach (var hitCollider in hitColliders)
+        if (targeting.target == null)
         {
-            if (hitCollider.CompareTag(targetTag))
-            {
-                target = hitCollider.transform;
-                Debug.Log("Target found: " + target.name);
-                currentState = State.moving;
-                break;
-            }
-            
+            SetState(State.idle);
+            return;
         }
+
+        Debug.Log("Attacking target: " + targeting.target.name + " for " + stats.currentAttackDmg + " damage.");
+
+        // **Damage Delegation:** Find the target's Health component and call TakeDamage
+        CharacterHealth targetHealth = targeting.target.GetComponent<CharacterHealth>();
+        if (targetHealth != null)
+        {
+            targetHealth.TakeDamage(stats.currentAttackDmg);
+        }
+
+        canAttack = false;
+        // Schedule the next attack based on the current attack speed
+        Invoke("ResetAttack", 1f / stats.currentAttackSpeed);
+
+        // Go back to moving/idle to re-check target status/range immediately
+        SetState(State.moving);
     }
 
-    private void OnDrawGizmos()
+    void ResetAttack()
     {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, detectionRadius);
+        canAttack = true;
     }
 }
