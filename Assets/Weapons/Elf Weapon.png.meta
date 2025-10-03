@@ -123,7 +123,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -747,7 +747,32 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Elf Weapon_0: 8211453590498434213
+      Elf Weapon_1: -5782101928680301418
+      Elf Weapon_10: 7503410562443900782
+      Elf Weapon_11: 5009835779022868967
+      Elf Weapon_12: 2089633749605095053
+      Elf Weapon_13: 3777562230074421371
+      Elf Weapon_14: 7813805829767802703
+      Elf Weapon_15: 8608149228062844579
+      Elf Weapon_16: -7426191718453901347
+      Elf Weapon_17: 492587919224817239
+      Elf Weapon_18: -5988030745261699376
+      Elf Weapon_19: 3157553525931386258
+      Elf Weapon_2: -8070495328468471825
+      Elf Weapon_20: -5077793547617395876
+      Elf Weapon_21: 1767090052582585550
+      Elf Weapon_22: -2942737808676818745
+      Elf Weapon_23: 5703165823592127498
+      Elf Weapon_24: -6706685142899532111
+      Elf Weapon_3: -7311582251669606194
+      Elf Weapon_4: -7103245382148333452
+      Elf Weapon_5: 1180855634201598043
+      Elf Weapon_6: 9005090071151368653
+      Elf Weapon_7: -8163093790619890903
+      Elf Weapon_8: 7786825777687915780
+      Elf Weapon_9: -3133635030292136224
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

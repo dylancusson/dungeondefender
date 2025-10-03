@@ -225,7 +225,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -1597,7 +1597,66 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Garden Tiles_0: 4026951850736072815
+      Garden Tiles_1: 9069124281794093062
+      Garden Tiles_10: -7335971301148914757
+      Garden Tiles_11: 1506995871759369088
+      Garden Tiles_12: 6205996338293580934
+      Garden Tiles_13: -7474340692883664373
+      Garden Tiles_14: 1519197534603432168
+      Garden Tiles_15: 2852619577000442363
+      Garden Tiles_16: 8201758066830212911
+      Garden Tiles_17: -1798588877529995917
+      Garden Tiles_18: -4672066257202795450
+      Garden Tiles_19: -2669800866223883415
+      Garden Tiles_2: 649324811508856531
+      Garden Tiles_20: 1985902870057663342
+      Garden Tiles_21: 597661294035550067
+      Garden Tiles_22: 1939293805644261729
+      Garden Tiles_23: 5477716247226609606
+      Garden Tiles_24: -2945470459312052439
+      Garden Tiles_25: -7712885270380329251
+      Garden Tiles_26: 1533264957755878998
+      Garden Tiles_27: 9012750641551401091
+      Garden Tiles_28: -804229713144275894
+      Garden Tiles_29: 3233295981985458836
+      Garden Tiles_3: -5772439698721077414
+      Garden Tiles_30: -3937594097837473685
+      Garden Tiles_31: -4512064695736741830
+      Garden Tiles_32: -5169730039007983740
+      Garden Tiles_33: 947235368209597551
+      Garden Tiles_34: 2283287882191855976
+      Garden Tiles_35: 7327952968138972490
+      Garden Tiles_36: -5292631923410253842
+      Garden Tiles_37: -4548225968917173966
+      Garden Tiles_38: -8444844862675150725
+      Garden Tiles_39: 6657103665090700447
+      Garden Tiles_4: -5496108823646011750
+      Garden Tiles_40: 6565985853989068562
+      Garden Tiles_41: 17789791090751892
+      Garden Tiles_42: 7625945629121207375
+      Garden Tiles_43: -6839890281641887759
+      Garden Tiles_44: 823911811958278178
+      Garden Tiles_45: 486109799899775267
+      Garden Tiles_46: 931549149939419095
+      Garden Tiles_47: 5116137976301787108
+      Garden Tiles_48: -1276468203082629536
+      Garden Tiles_49: -7315478937579835029
+      Garden Tiles_5: 7062992999755378100
+      Garden Tiles_50: -3047816444057545819
+      Garden Tiles_51: -2750033480231283676
+      Garden Tiles_52: 7835900715076193709
+      Garden Tiles_53: -3162868792480733891
+      Garden Tiles_54: -1109734345012138186
+      Garden Tiles_55: -4621220027518360874
+      Garden Tiles_56: -5793904232068684969
+      Garden Tiles_57: -7233638774311067147
+      Garden Tiles_58: -6916957656384023962
+      Garden Tiles_6: -656539245360246452
+      Garden Tiles_7: 6250979819044476630
+      Garden Tiles_8: -9168127571098859758
+      Garden Tiles_9: 221691091796253549
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

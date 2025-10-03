@@ -90,7 +90,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -472,7 +472,21 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cemetery - Tree_0: 1616651662535320773
+      Cemetery - Tree_1: -4181243247420202286
+      Cemetery - Tree_10: 2262458988501562393
+      Cemetery - Tree_11: 3118143819707906365
+      Cemetery - Tree_12: -9053649345914510811
+      Cemetery - Tree_13: 7645658633071123526
+      Cemetery - Tree_2: 3072538197349519701
+      Cemetery - Tree_3: 1630942226689726025
+      Cemetery - Tree_4: 8695887502175781104
+      Cemetery - Tree_5: 3332504950361536034
+      Cemetery - Tree_6: -1717872994448834531
+      Cemetery - Tree_7: 5451114505115308457
+      Cemetery - Tree_8: 8991209511869816788
+      Cemetery - Tree_9: 6584819178919758796
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

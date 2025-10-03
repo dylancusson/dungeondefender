@@ -72,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Forge Tiles_0: -6609749592588377189
+      Forge Tiles_1: -6991281459987598561
+      Forge Tiles_2: -5497135092032715274
+      Forge Tiles_3: 8035113007811527282
+      Forge Tiles_4: -5894364347001065771
+      Forge Tiles_5: 380285600933861938
+      Forge Tiles_6: 7581648836368273580
+      Forge Tiles_7: 4912398310577199525
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

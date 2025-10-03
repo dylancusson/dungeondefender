@@ -69,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -297,7 +297,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cemetery - Shadows_0: 7056875336689906662
+      Cemetery - Shadows_1: -1085301167054022765
+      Cemetery - Shadows_2: -5780612487023281011
+      Cemetery - Shadows_3: 6981865584826679442
+      Cemetery - Shadows_4: 4666104514000207961
+      Cemetery - Shadows_5: 3771898119655339138
+      Cemetery - Shadows_6: -2568031397502829277
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

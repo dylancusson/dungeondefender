@@ -105,7 +105,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -597,7 +597,26 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Poison Weapons_0: -2448306258393885865
+      Poison Weapons_1: 8680280257431761081
+      Poison Weapons_10: 7257365731288905516
+      Poison Weapons_11: -7498271637838544504
+      Poison Weapons_12: 2571204529381489267
+      Poison Weapons_13: 8785108524087407755
+      Poison Weapons_14: -510976123709709307
+      Poison Weapons_15: -6942207155994210772
+      Poison Weapons_16: -3855978794738650008
+      Poison Weapons_17: -7350051892216094059
+      Poison Weapons_18: -2455539286689422877
+      Poison Weapons_2: 6044155180608616218
+      Poison Weapons_3: -1260099045111536491
+      Poison Weapons_4: 1716763342635350619
+      Poison Weapons_5: -8786825228420081162
+      Poison Weapons_6: 5451959022023886735
+      Poison Weapons_7: -8235868111465983081
+      Poison Weapons_8: 6041619133031750547
+      Poison Weapons_9: -9027507035751037037
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

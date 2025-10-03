@@ -102,7 +102,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -572,7 +572,25 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Desert Weapons_0: -8804125581860043248
+      Desert Weapons_1: 2165540215256640482
+      Desert Weapons_10: 4759360827238266733
+      Desert Weapons_11: 6464716945078117395
+      Desert Weapons_12: -481413489320378416
+      Desert Weapons_13: 650037849958077877
+      Desert Weapons_14: 8241787649446281063
+      Desert Weapons_15: -5367555119714700080
+      Desert Weapons_16: -2290677704145460288
+      Desert Weapons_17: -7668861327934633114
+      Desert Weapons_2: 413490687386638121
+      Desert Weapons_3: -3470674813548117546
+      Desert Weapons_4: 3644585097478726256
+      Desert Weapons_5: -6491754831535134471
+      Desert Weapons_6: 3634675046380331906
+      Desert Weapons_7: 8596585293717828200
+      Desert Weapons_8: 4492523521224988093
+      Desert Weapons_9: -7490003666699767225
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

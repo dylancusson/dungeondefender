@@ -252,7 +252,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -1822,7 +1822,75 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Magic Weapons_0: -8440311793608789930
+      Magic Weapons_1: 1716933928415356134
+      Magic Weapons_10: -3260405552759598052
+      Magic Weapons_11: -2824431097408723666
+      Magic Weapons_12: 7809098156233762770
+      Magic Weapons_13: -3545682303337822431
+      Magic Weapons_14: 7568780143637051964
+      Magic Weapons_15: -2104923746367784917
+      Magic Weapons_16: 5153289608221809879
+      Magic Weapons_17: 2067416933040344717
+      Magic Weapons_18: -7170571706128482369
+      Magic Weapons_19: -3418561619835306319
+      Magic Weapons_2: -3903782916492704640
+      Magic Weapons_20: 1713057325731422437
+      Magic Weapons_21: 3417439198502164398
+      Magic Weapons_22: 7087374900243064285
+      Magic Weapons_23: -23958114689670909
+      Magic Weapons_24: -175121765571043540
+      Magic Weapons_25: -5587670014254169730
+      Magic Weapons_26: -7381968923823913287
+      Magic Weapons_27: 731977958406206624
+      Magic Weapons_28: -6829876690311277615
+      Magic Weapons_29: 6605905156958259822
+      Magic Weapons_3: 2628097750075406603
+      Magic Weapons_30: 7951740813799376434
+      Magic Weapons_31: 4816225030228497754
+      Magic Weapons_32: -3900931551105259443
+      Magic Weapons_33: 8637881234302463866
+      Magic Weapons_34: 6164281505128385925
+      Magic Weapons_35: 1051496892833847696
+      Magic Weapons_36: 7925190820704319435
+      Magic Weapons_37: 7217784049707883505
+      Magic Weapons_38: 25627549753797405
+      Magic Weapons_39: 1756142648884674817
+      Magic Weapons_4: -6222014367099223949
+      Magic Weapons_40: 6394389541251330638
+      Magic Weapons_41: -977122757631170877
+      Magic Weapons_42: 2053839228444639317
+      Magic Weapons_43: -1917530230685840472
+      Magic Weapons_44: -8718463358997071264
+      Magic Weapons_45: 4533803420651608738
+      Magic Weapons_46: 8258215227977347601
+      Magic Weapons_47: 3351899383082849902
+      Magic Weapons_48: -4052637527660989658
+      Magic Weapons_49: 110340954413101274
+      Magic Weapons_5: 6632419868253707943
+      Magic Weapons_50: 865680951087900230
+      Magic Weapons_51: 2430851277665133230
+      Magic Weapons_52: 2773479723526751972
+      Magic Weapons_53: 519328006855119544
+      Magic Weapons_54: 1631382502444416903
+      Magic Weapons_55: 2679823245233418099
+      Magic Weapons_56: 3087822209643930286
+      Magic Weapons_57: 1800239410746262581
+      Magic Weapons_58: 6502134347235001357
+      Magic Weapons_59: -7870714703780967979
+      Magic Weapons_6: -27024048825444234
+      Magic Weapons_60: -8588630749976904797
+      Magic Weapons_61: -4309985202760199446
+      Magic Weapons_62: 3965900371678919508
+      Magic Weapons_63: -4194653868944433541
+      Magic Weapons_64: 8309916452232916862
+      Magic Weapons_65: -7850950197091019249
+      Magic Weapons_66: -4841069357285848876
+      Magic Weapons_67: -5615798760375704787
+      Magic Weapons_7: 8305464188076416712
+      Magic Weapons_8: 8474629543156854754
+      Magic Weapons_9: 1120065250220230773
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

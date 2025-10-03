@@ -123,7 +123,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -747,7 +747,32 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Castle Tiles_0: 3685675821338381603
+      Castle Tiles_1: 2010233007953011297
+      Castle Tiles_10: 8249461021240386471
+      Castle Tiles_11: 9215698522927796688
+      Castle Tiles_12: -2923647556532334632
+      Castle Tiles_13: -6668865037187671418
+      Castle Tiles_14: 1771882305639960311
+      Castle Tiles_15: 5523156793864115142
+      Castle Tiles_16: 5847700574757433442
+      Castle Tiles_17: 1570286214247770846
+      Castle Tiles_18: -3376473001737645760
+      Castle Tiles_19: -2275366528208291167
+      Castle Tiles_2: 5101868556860681226
+      Castle Tiles_20: -6376296694658930616
+      Castle Tiles_21: -5512271895972134620
+      Castle Tiles_22: -1743368753545470993
+      Castle Tiles_23: 7138091962190217832
+      Castle Tiles_24: 6802241758603987022
+      Castle Tiles_3: -7475407571653414679
+      Castle Tiles_4: -3395021983315014820
+      Castle Tiles_5: -8917009705970854379
+      Castle Tiles_6: 61722504783239063
+      Castle Tiles_7: -7024452848575460120
+      Castle Tiles_8: -7660232438809044138
+      Castle Tiles_9: -5710311235336905806
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -72,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Desert - Sand_0: 4970111521338273811
+      Desert - Sand_1: -2107540622689973778
+      Desert - Sand_2: 8413695935108566435
+      Desert - Sand_3: 147599486803018448
+      Desert - Sand_4: 1582316433671960708
+      Desert - Sand_5: 1147427233110446685
+      Desert - Sand_6: 8539033449963582208
+      Desert - Sand_7: -5479271882232236682
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
