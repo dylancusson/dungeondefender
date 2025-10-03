@@ -99,7 +99,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -547,7 +547,24 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Fire Weapons_0: -774181732462886081
+      Fire Weapons_1: -1394834615650997670
+      Fire Weapons_10: 2516245555964086556
+      Fire Weapons_11: 5277444678145432634
+      Fire Weapons_12: 7670030418408530137
+      Fire Weapons_13: -2231365748863366740
+      Fire Weapons_14: -2249260431806909533
+      Fire Weapons_15: 6572173746464654238
+      Fire Weapons_16: 6937549622731673165
+      Fire Weapons_2: 3729979456198543408
+      Fire Weapons_3: -2690282787812632762
+      Fire Weapons_4: -1550239202449990062
+      Fire Weapons_5: 2036238097833621686
+      Fire Weapons_6: 6671886745380378013
+      Fire Weapons_7: 5697323132329713695
+      Fire Weapons_8: -4032154878156635653
+      Fire Weapons_9: 178240984282444186
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

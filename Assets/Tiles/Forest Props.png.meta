@@ -414,7 +414,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -3172,7 +3172,129 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Forest Props_0: 8912523845864257178
+      Forest Props_1: -1030587216130361053
+      Forest Props_10: -7380855804063800330
+      Forest Props_100: 5914399897308605898
+      Forest Props_101: -3970158301962444974
+      Forest Props_102: 4566662500585252360
+      Forest Props_103: 347555367804244129
+      Forest Props_104: -6363558908699316756
+      Forest Props_105: 4771885246717905685
+      Forest Props_106: -2733369391055198672
+      Forest Props_107: -1410241894721029218
+      Forest Props_108: 6320601801316559356
+      Forest Props_109: -7427265270388828238
+      Forest Props_11: -6648738442158075993
+      Forest Props_110: 3322094839323695348
+      Forest Props_111: 2901991835681339062
+      Forest Props_112: -6460258286176051091
+      Forest Props_113: 4450056057546502944
+      Forest Props_114: 8952604211409767751
+      Forest Props_115: -6236186049593385586
+      Forest Props_116: -7576420733523353619
+      Forest Props_117: 9222898696048300857
+      Forest Props_118: -1132722054163808408
+      Forest Props_119: -6800870866135926106
+      Forest Props_12: 8968105683791401561
+      Forest Props_120: 1980813109743904779
+      Forest Props_121: -1036113148573249882
+      Forest Props_13: 8939782248607134731
+      Forest Props_14: -8489456083801957603
+      Forest Props_15: 9142811426222444572
+      Forest Props_16: -5819004630718571197
+      Forest Props_17: 3220230812179680077
+      Forest Props_18: 959834977254135249
+      Forest Props_19: 8896977223829589598
+      Forest Props_2: -8884638059154042482
+      Forest Props_20: 4624195081242236466
+      Forest Props_21: -7404047554576504710
+      Forest Props_22: 722425758887631219
+      Forest Props_23: -6646124669751951360
+      Forest Props_24: -4289302198281792046
+      Forest Props_25: 2630280962761069158
+      Forest Props_26: 4181373746894679768
+      Forest Props_27: -8133834131944864395
+      Forest Props_28: -2276404041260480517
+      Forest Props_29: 4420327230582382252
+      Forest Props_3: -7944807867209600936
+      Forest Props_30: -8926958543708518437
+      Forest Props_31: 946267340107384964
+      Forest Props_32: 6495564107464426634
+      Forest Props_33: 2085270875159542074
+      Forest Props_34: -600659779977518079
+      Forest Props_35: 2396039893783987299
+      Forest Props_36: 70850964812142816
+      Forest Props_37: -4340072081730896412
+      Forest Props_38: 4456870219203494536
+      Forest Props_39: -8745503868261499348
+      Forest Props_4: -382636951680251758
+      Forest Props_40: -3975799783899721324
+      Forest Props_41: -414814257093194294
+      Forest Props_42: -5531031880871311059
+      Forest Props_43: 3643486490887426942
+      Forest Props_44: -6938490896618212546
+      Forest Props_45: 7145728975521999952
+      Forest Props_46: 907238711863143028
+      Forest Props_47: -6195112061727828514
+      Forest Props_48: -478046487162993847
+      Forest Props_49: 1885347601194674793
+      Forest Props_5: -1430851260029574484
+      Forest Props_50: -1638305749604491445
+      Forest Props_51: -7079008602266166246
+      Forest Props_52: 4185787487653531741
+      Forest Props_53: -9061949449368397462
+      Forest Props_54: 6515155441290969256
+      Forest Props_55: 6720048759523324240
+      Forest Props_56: -5216246421015998984
+      Forest Props_57: -7577598713291540526
+      Forest Props_58: 7782455807184765387
+      Forest Props_59: 6202933991628575891
+      Forest Props_6: 7506414952732035420
+      Forest Props_60: -7927295833941415293
+      Forest Props_61: 1280060514251222811
+      Forest Props_62: -2133064885278940978
+      Forest Props_63: 3538795388952058356
+      Forest Props_64: -1818162044973387741
+      Forest Props_65: -6860932402434881994
+      Forest Props_66: 2936583529590759503
+      Forest Props_67: 3398935956784955905
+      Forest Props_68: 9089771438875277374
+      Forest Props_69: -8641100724849025237
+      Forest Props_7: -7298372112153293688
+      Forest Props_70: 1221359176416236256
+      Forest Props_71: 8063272240678928749
+      Forest Props_72: -8170840721998120526
+      Forest Props_73: 4920318050210960370
+      Forest Props_74: 798215770480412857
+      Forest Props_75: -8765414510436243324
+      Forest Props_76: -4830429884674991106
+      Forest Props_77: 4943682614843791271
+      Forest Props_78: -878194350803301549
+      Forest Props_79: -3122977588695188047
+      Forest Props_8: 3098726217660378153
+      Forest Props_80: 408638509265102589
+      Forest Props_81: 8957454650435960411
+      Forest Props_82: -3154219849468928593
+      Forest Props_83: -1549266237221556880
+      Forest Props_84: 7890143244568819912
+      Forest Props_85: 7438710231407412874
+      Forest Props_86: 5640601658994988494
+      Forest Props_87: 706715928316425248
+      Forest Props_88: -623460182593928853
+      Forest Props_89: -7339254144508901585
+      Forest Props_9: 3708590150536889609
+      Forest Props_90: -5897643414580952376
+      Forest Props_91: 5396439067915630659
+      Forest Props_92: 3417209236860163201
+      Forest Props_93: 4762584883678877528
+      Forest Props_94: 4765009224324305476
+      Forest Props_95: -6108855744837563772
+      Forest Props_96: -9156067057644274589
+      Forest Props_97: -3103363601968930582
+      Forest Props_98: -8902434768832953347
+      Forest Props_99: -5936200698645164547
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

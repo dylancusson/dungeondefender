@@ -4,7 +4,8 @@ public class Character : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public float attackSpeed = 1f;
-    public int health = 100;
+    public int maxHealth = 100;
+    private int currentHealth;
     public float attackRange = 2f;
     public float detectionRadius = 10f;
     public string targetTag = "Player"; // Tag of the target to detect
@@ -18,7 +19,7 @@ public class Character : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        currentHealth = maxHealth;
     }
 
     // Update is called once per frame
@@ -58,5 +59,11 @@ public class Character : MonoBehaviour
             }
             
         }
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, detectionRadius);
     }
 }

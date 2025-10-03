@@ -258,7 +258,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -1872,7 +1872,77 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sewer Props_0: -7015682640401896336
+      Sewer Props_1: -4555018497661193727
+      Sewer Props_10: -7656253845057232936
+      Sewer Props_11: 6387984484545578223
+      Sewer Props_12: -850156156139655015
+      Sewer Props_13: -8040354298553940444
+      Sewer Props_14: -7278274019436537210
+      Sewer Props_15: -4577472216606556176
+      Sewer Props_16: 4099045939907911055
+      Sewer Props_17: 3477533086085752071
+      Sewer Props_18: 3524350675970263112
+      Sewer Props_19: -299447098261067367
+      Sewer Props_2: -2424742069781752379
+      Sewer Props_20: 4217385057665717571
+      Sewer Props_21: -8411214508445588945
+      Sewer Props_22: -8940322786639503911
+      Sewer Props_23: -222743261043353929
+      Sewer Props_24: 3323995716644742919
+      Sewer Props_25: 6594182929127417559
+      Sewer Props_26: -4615231782139349543
+      Sewer Props_27: 7483141080398704021
+      Sewer Props_28: 7425322965048439097
+      Sewer Props_29: 1902663149609578084
+      Sewer Props_3: 5825768618499237963
+      Sewer Props_30: 3036553832909155606
+      Sewer Props_31: -6557069451092018958
+      Sewer Props_32: 1899313966928289560
+      Sewer Props_33: -4007773955767265476
+      Sewer Props_34: -6801704397173841367
+      Sewer Props_35: 8630912002601434272
+      Sewer Props_36: -472339222410577390
+      Sewer Props_37: 6626376635158281307
+      Sewer Props_38: -8807860313336344263
+      Sewer Props_39: -2360315263631232651
+      Sewer Props_4: -1786437341209635064
+      Sewer Props_40: -4466742723505000103
+      Sewer Props_41: -5835971774776451597
+      Sewer Props_42: -929358537539472455
+      Sewer Props_43: 5088146112296956254
+      Sewer Props_44: -4276115211082648134
+      Sewer Props_45: -3265083535444943923
+      Sewer Props_46: 798628701903370737
+      Sewer Props_47: 6362872956355737281
+      Sewer Props_48: -1436487143512321641
+      Sewer Props_49: 3910930242039359165
+      Sewer Props_5: 5978831616883770983
+      Sewer Props_50: 1524280304940240719
+      Sewer Props_51: 8179762656050568083
+      Sewer Props_52: 7468826382952151166
+      Sewer Props_53: -3814471664524396951
+      Sewer Props_54: 7807472184017774725
+      Sewer Props_55: -6759145477612517611
+      Sewer Props_56: -8665724134409011899
+      Sewer Props_57: 3034516751318620291
+      Sewer Props_58: -8666908233362955469
+      Sewer Props_59: -8366858834380601433
+      Sewer Props_6: 6477735817403300135
+      Sewer Props_60: -1493227655189820903
+      Sewer Props_61: 1134817321297947229
+      Sewer Props_62: -8806234177742741989
+      Sewer Props_63: -5438519870440021481
+      Sewer Props_64: -3725796986574304985
+      Sewer Props_65: -3326124482747990800
+      Sewer Props_66: -5349448889899326029
+      Sewer Props_67: -1808798135165107452
+      Sewer Props_68: 8486079695242394376
+      Sewer Props_69: 1336892847276659724
+      Sewer Props_7: 8563815887617784764
+      Sewer Props_8: -3669028196122866165
+      Sewer Props_9: -165511525318011228
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

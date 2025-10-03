@@ -198,7 +198,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -1372,7 +1372,57 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Garden Weapons_0: -6456636879548911704
+      Garden Weapons_1: -5986822374290344379
+      Garden Weapons_10: -2123228591900540060
+      Garden Weapons_11: 6596747094771079449
+      Garden Weapons_12: 961579419631161586
+      Garden Weapons_13: -4802142904243127133
+      Garden Weapons_14: 4877501977267210380
+      Garden Weapons_15: 6054009136196771712
+      Garden Weapons_16: -4816309667964445132
+      Garden Weapons_17: -4504343876490469596
+      Garden Weapons_18: 3368620127005051820
+      Garden Weapons_19: -7648525576450229655
+      Garden Weapons_2: -2165679800943079471
+      Garden Weapons_20: 1096852404807424559
+      Garden Weapons_21: -4465162921515221723
+      Garden Weapons_22: -6144966838533784355
+      Garden Weapons_23: 9004480820702142861
+      Garden Weapons_24: -6845143981014191296
+      Garden Weapons_25: -2717836625450706548
+      Garden Weapons_26: -5402392028387047696
+      Garden Weapons_27: 7979174577303329022
+      Garden Weapons_28: 4692710871442211663
+      Garden Weapons_29: -5982340715846049008
+      Garden Weapons_3: 166775807941753851
+      Garden Weapons_30: 8535122336759936752
+      Garden Weapons_31: -7729820192677357565
+      Garden Weapons_32: 3115439708048530278
+      Garden Weapons_33: -6429855177714280137
+      Garden Weapons_34: 102537537272751030
+      Garden Weapons_35: 4785650060666563675
+      Garden Weapons_36: -4946027086222263715
+      Garden Weapons_37: 5598405362877102413
+      Garden Weapons_38: 2755284300621035238
+      Garden Weapons_39: -19391035782432758
+      Garden Weapons_4: -8820981639839340036
+      Garden Weapons_40: 3653410453434125941
+      Garden Weapons_41: -2627959050562736758
+      Garden Weapons_42: -885583246738740194
+      Garden Weapons_43: 2310204687590103846
+      Garden Weapons_44: -6193102816131687193
+      Garden Weapons_45: 8469559253223797706
+      Garden Weapons_46: -8979670212000279407
+      Garden Weapons_47: -8036537695797514525
+      Garden Weapons_48: 2523732930002558688
+      Garden Weapons_49: 2189645122061517611
+      Garden Weapons_5: -9091676712907763468
+      Garden Weapons_6: 7394626516092620087
+      Garden Weapons_7: 4705615189814580903
+      Garden Weapons_8: 7344697447064621455
+      Garden Weapons_9: -1792611692671064803
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

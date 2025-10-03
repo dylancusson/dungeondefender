@@ -114,7 +114,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -672,7 +672,29 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cemetery Graves_0: -2483122788827851796
+      Cemetery Graves_1: -4796468488005657487
+      Cemetery Graves_10: 8518966724945276370
+      Cemetery Graves_11: -2500585103075339028
+      Cemetery Graves_12: -8348519524039830768
+      Cemetery Graves_13: -3928148998979080943
+      Cemetery Graves_14: -3723630221935321343
+      Cemetery Graves_15: -1711719859959508557
+      Cemetery Graves_16: -354861726113675901
+      Cemetery Graves_17: -2214373071298091793
+      Cemetery Graves_18: -5263648187527371048
+      Cemetery Graves_19: -2490064475852217378
+      Cemetery Graves_2: 4763139041573613591
+      Cemetery Graves_20: -9063953430691777266
+      Cemetery Graves_21: -1416132633671214718
+      Cemetery Graves_3: -8871426372540414652
+      Cemetery Graves_4: -2783184223489283195
+      Cemetery Graves_5: 4422093898076448053
+      Cemetery Graves_6: -5976685619985600015
+      Cemetery Graves_7: 8595906036111640770
+      Cemetery Graves_8: -6926401978016529457
+      Cemetery Graves_9: -3672941644287318713
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -123,7 +123,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -747,7 +747,32 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cemetery - Props_0: -6761266730536185503
+      Cemetery - Props_1: -8047774010052862525
+      Cemetery - Props_10: -9158198716041621443
+      Cemetery - Props_11: 7576430988695078255
+      Cemetery - Props_12: -6712814915661712664
+      Cemetery - Props_13: 4067042012796992486
+      Cemetery - Props_14: 4061560014915966670
+      Cemetery - Props_15: 8599440202084057505
+      Cemetery - Props_16: 4447605149404270427
+      Cemetery - Props_17: -2062227750710594252
+      Cemetery - Props_18: 2450729592257747967
+      Cemetery - Props_19: -4278398384647132597
+      Cemetery - Props_2: 1292398037660052741
+      Cemetery - Props_20: 2121231207318218122
+      Cemetery - Props_21: 7291075995576275014
+      Cemetery - Props_22: -4982437463663978848
+      Cemetery - Props_23: -9041975317361201510
+      Cemetery - Props_24: 1346345353698175756
+      Cemetery - Props_3: 4084960685293506017
+      Cemetery - Props_4: -1018104114279573013
+      Cemetery - Props_5: -5002753278431395770
+      Cemetery - Props_6: -5089414468855467538
+      Cemetery - Props_7: 5972019411140310769
+      Cemetery - Props_8: 5034484262466645804
+      Cemetery - Props_9: 6222034573297718669
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

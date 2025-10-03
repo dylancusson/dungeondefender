@@ -105,7 +105,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -597,7 +597,26 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Desert - Props_0: 1720275349827620674
+      Desert - Props_1: 5531256878016885229
+      Desert - Props_10: 5773910443300737969
+      Desert - Props_11: -7166446331688254928
+      Desert - Props_12: 1050713723073919113
+      Desert - Props_13: 7465428274445211413
+      Desert - Props_14: -6876855627267047531
+      Desert - Props_15: -2302794947370981366
+      Desert - Props_16: 7090418918222840177
+      Desert - Props_17: -171105243821302652
+      Desert - Props_18: 3542271304823606069
+      Desert - Props_2: 4460909069145830771
+      Desert - Props_3: -8442109984696216714
+      Desert - Props_4: 1449749175126202677
+      Desert - Props_5: -8722098537579701630
+      Desert - Props_6: -5990549107725037104
+      Desert - Props_7: -3234563382932391187
+      Desert - Props_8: 6558042524063849734
+      Desert - Props_9: -8901964734344075986
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

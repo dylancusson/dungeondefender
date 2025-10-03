@@ -177,7 +177,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -1197,7 +1197,50 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Castle Weapons_0: 5380318323586421792
+      Castle Weapons_1: 4237830015859019952
+      Castle Weapons_10: -1024199803790551496
+      Castle Weapons_11: -4624242591396267450
+      Castle Weapons_12: -1521340719166565078
+      Castle Weapons_13: 2550533857316636647
+      Castle Weapons_14: -5298690450863733984
+      Castle Weapons_15: 8168756475375718644
+      Castle Weapons_16: -5234924770624812381
+      Castle Weapons_17: 4988129507610080523
+      Castle Weapons_18: -2435340990623770745
+      Castle Weapons_19: -8615340289059811383
+      Castle Weapons_2: -1267646831168692800
+      Castle Weapons_20: -5275134580727334153
+      Castle Weapons_21: 5945615838447497574
+      Castle Weapons_22: 2996590136098296309
+      Castle Weapons_23: 3650824637850868784
+      Castle Weapons_24: 2064000780458029911
+      Castle Weapons_25: -2028587555897081471
+      Castle Weapons_26: -7451551278101681515
+      Castle Weapons_27: 386251935412568603
+      Castle Weapons_28: -3245323914331763564
+      Castle Weapons_29: -4777839129689846623
+      Castle Weapons_3: -5936501966825217636
+      Castle Weapons_30: 6834137646906171201
+      Castle Weapons_31: -4556762140975518547
+      Castle Weapons_32: 1451884073710152677
+      Castle Weapons_33: 403346421590035777
+      Castle Weapons_34: -7352580263577093342
+      Castle Weapons_35: 2661863002782697518
+      Castle Weapons_36: 4183002232896415361
+      Castle Weapons_37: -2955591491632495091
+      Castle Weapons_38: 4374570400307708777
+      Castle Weapons_39: 67259162416765062
+      Castle Weapons_4: -547088535461018543
+      Castle Weapons_40: -1613786145095051919
+      Castle Weapons_41: 7876605652990352350
+      Castle Weapons_42: -5522664154729951306
+      Castle Weapons_5: 126332892628470878
+      Castle Weapons_6: 5399599079345066016
+      Castle Weapons_7: -1390785602339438276
+      Castle Weapons_8: 6033940847570389521
+      Castle Weapons_9: -3746440010738688966
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
