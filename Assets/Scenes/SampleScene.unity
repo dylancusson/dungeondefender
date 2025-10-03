@@ -130,6 +130,9 @@ GameObject:
   - component: {fileID: 33271287}
   - component: {fileID: 33271286}
   - component: {fileID: 33271288}
+  - component: {fileID: 33271291}
+  - component: {fileID: 33271290}
+  - component: {fileID: 33271289}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -149,15 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d11078d3a9eeac47bfe865ca2d0f739, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
-  attackSpeed: 1
-  maxHealth: 100
-  attackRange: 2
-  detectionRadius: 10
-  targetTag: Enemy
-  isAlive: 1
-  canAttack: 1
-  target: {fileID: 0}
+  canAttack: 0
   currentState: 0
 --- !u!4 &33271287
 Transform:
@@ -168,7 +163,7 @@ Transform:
   m_GameObject: {fileID: 33271285}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.535, y: -0.94, z: 0}
+  m_LocalPosition: {x: 3.715, y: -0.94, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -211,6 +206,59 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.15}
   m_Radius: 0.15
+--- !u!114 &33271289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33271285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ef310e1b1d426b4da879ab948cafbc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  detectionRadius: 10
+  targetTag: Enemy
+  target: {fileID: 0}
+--- !u!114 &33271290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33271285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c0e94661eb8aa64ba96a3358a4577a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseMoveSpeed: 5
+  baseAttackSpeed: 1
+  maxHealth: 100
+  maxMana: 50
+  manaGainRate: 5
+  maxAttackDmg: 10
+  baseAttackRange: 2
+  currentMoveSpeed: 0
+  currentAttackSpeed: 0
+  currentAttackDmg: 0
+  currentAttackRange: 0
+  currentMana: 0
+--- !u!114 &33271291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33271285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba529f8e1a3391e4680f0eaefe014177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 0
+  isAlive: 1
 --- !u!4 &114060536 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: 7085909615756e74a8af67cc13ad2a67, type: 3}
@@ -323,7 +371,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 0.9
+  orthographic size: 11.25
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -367,7 +415,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ComponentVersion: 1
-  m_AssetsPPU: 100
+  m_AssetsPPU: 8
   m_RefResolutionX: 320
   m_RefResolutionY: 180
   m_CropFrame: 0
@@ -473,6 +521,9 @@ GameObject:
   - component: {fileID: 705741638}
   - component: {fileID: 705741637}
   - component: {fileID: 705741639}
+  - component: {fileID: 705741642}
+  - component: {fileID: 705741641}
+  - component: {fileID: 705741640}
   m_Layer: 0
   m_Name: Character
   m_TagString: Enemy
@@ -492,15 +543,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d11078d3a9eeac47bfe865ca2d0f739, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
-  attackSpeed: 1
-  maxHealth: 100
-  attackRange: 2
-  detectionRadius: 10
-  targetTag: Player
-  isAlive: 1
   canAttack: 1
-  target: {fileID: 0}
   currentState: 0
 --- !u!4 &705741638
 Transform:
@@ -511,7 +554,7 @@ Transform:
   m_GameObject: {fileID: 705741636}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.002, y: -0.94, z: 0}
+  m_LocalPosition: {x: -13.72, y: -0.94, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -552,8 +595,61 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0.15}
-  m_Radius: 0.15
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 1
+--- !u!114 &705741640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705741636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ef310e1b1d426b4da879ab948cafbc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  detectionRadius: 10
+  targetTag: Player
+  target: {fileID: 0}
+--- !u!114 &705741641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705741636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c0e94661eb8aa64ba96a3358a4577a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseMoveSpeed: 5
+  baseAttackSpeed: 1
+  maxHealth: 100
+  maxMana: 50
+  manaGainRate: 5
+  maxAttackDmg: 10
+  baseAttackRange: 2
+  currentMoveSpeed: 0
+  currentAttackSpeed: 0
+  currentAttackDmg: 0
+  currentAttackRange: 0
+  currentMana: 0
+--- !u!114 &705741642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705741636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba529f8e1a3391e4680f0eaefe014177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 0
+  isAlive: 1
 --- !u!1001 &1668578838
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -566,13 +662,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sprite
       objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: 847aeb6e7c5ff034f9818b73decfaf92, type: 3}
+      propertyPath: m_SpriteSortPoint
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 847aeb6e7c5ff034f9818b73decfaf92, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 847aeb6e7c5ff034f9818b73decfaf92, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 847aeb6e7c5ff034f9818b73decfaf92, type: 3}
       propertyPath: m_LocalPosition.z
@@ -637,7 +737,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 7085909615756e74a8af67cc13ad2a67, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 7085909615756e74a8af67cc13ad2a67, type: 3}
       propertyPath: m_LocalPosition.z
