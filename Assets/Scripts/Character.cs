@@ -76,7 +76,7 @@ public class Character : MonoBehaviour
 
             case State.dead:
                 // Die();
-                Destroy(this);
+                Destroy(gameObject);
                 break;
         }
     }
