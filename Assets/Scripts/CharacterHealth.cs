@@ -7,14 +7,25 @@ public class CharacterHealth : MonoBehaviour
 
     // Health variables are now managed here
     public int currentHealth;
+    public int maximumHealth;
     public bool isAlive = true;
+
+    [SerializeField] FloatingHealthBar healthBar;
+
+    private void Awake()
+    {
+        healthBar = GetComponentInChildren<FloatingHealthBar>();
+    }
 
     void Start()
     {
         stats = GetComponent<CharacterStats>();
+
         if (stats != null)
         {
-            currentHealth = stats.maxHealth;
+            maximumHealth = stats.maxHealth;
+            currentHealth = maximumHealth;
+            healthBar.updateHealthBar(currentHealth, maximumHealth);
         }
     }
 
@@ -23,6 +34,7 @@ public class CharacterHealth : MonoBehaviour
     {
         currentHealth -= damage;
         Debug.Log("Took damage: " + damage + ", Current Health: " + currentHealth);
+        healthBar.updateHealthBar(currentHealth, maximumHealth);
 
         if (currentHealth <= 0)
         {
