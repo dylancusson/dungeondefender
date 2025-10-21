@@ -4,7 +4,8 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine.InputSystem.XR.Haptics;
 using UnityEngine.Tilemaps;
-using UnityEngine.AI; // Required for Lists
+using UnityEngine.AI;
+using UnityEngine.UIElements; // Required for Lists
 
 public class Character : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class Character : MonoBehaviour
     private CharacterHealth health;
     private CharacterTargeting targeting;
     private NavMeshAgent agent;
+    private Animator animator;
 
     // Path recalculation control
     public float pathRecalculationRate = 1f; // seconds
@@ -31,6 +33,8 @@ public class Character : MonoBehaviour
         health = GetComponent<CharacterHealth>();
         targeting = GetComponent<CharacterTargeting>();
         agent = GetComponent<NavMeshAgent>();
+        animator = GetComponent<Animator>();
+        animator.SetBool("isIdle", true);
         if (agent == null) Debug.LogError("NavMeshAgent component missing from " + gameObject.name);
         agent.autoBraking = false; // For continuous movement
     }
@@ -48,6 +52,8 @@ public class Character : MonoBehaviour
         switch (currentState)
         {
             case State.idle:
+                //Update animation to idle
+                SetAnimation("Idle");
                 // FindTarget logic may change the state to moving
                 targeting.FindTarget();
 
@@ -60,6 +66,9 @@ public class Character : MonoBehaviour
                 break;
 
             case State.moving:
+                //Update animation to moving
+                SetAnimation("Moving");
+
                 if (targeting.target == null)
                 {
                     agent.ResetPath(); // Stop the agent
@@ -78,8 +87,16 @@ public class Character : MonoBehaviour
                         // Recalculate if far away, OR if the path is almost done
                         StartMoveToTarget(targeting.target.transform.position);
                         pathRecalculationRate = Time.time + pathRecalculationRate;
+                        // Face the target while moving updating every repath
+                        if (targeting.target != null)
+                        {
+                            // Flip sprite to face target
+                            float directionToTarget = targeting.target.transform.position.x - transform.position.x;
+                            FlipCharacter(directionToTarget);
+                        }
                     }
                 }
+                
                 break;
 
             case State.attacking:
@@ -107,7 +124,9 @@ public class Character : MonoBehaviour
 
             case State.dead:
                 // Die(); // Call death logic like adding score, playing animation, etc
-                Destroy(gameObject);
+                SetAnimation("Dead");
+                Debug.Log(gameObject.name + " is dead and will be destroyed.");
+                Invoke("OnDeath", 1f); // Delay to allow death animation
                 break;
         }
     }
@@ -143,6 +162,10 @@ public class Character : MonoBehaviour
         canAttack = true;
     }
 
+    void OnDeath()
+    {
+        Destroy(gameObject);
+    }
     public void StartMoveToTarget(Vector3 targetPosition)
     {
         if (agent == null || !agent.isOnNavMesh) {
@@ -156,5 +179,45 @@ public class Character : MonoBehaviour
         }
     }
 
-    
+    public void SetAnimation(string animationName)
+    {
+        switch (animationName)
+        {
+            case "Idle":
+                animator.SetBool("isIdle", true);
+                animator.SetBool("isMoving", false);
+                animator.SetBool("isAttacking", false);
+                break;
+            case "Moving":
+                animator.SetBool("isIdle", false);
+                animator.SetBool("isMoving", true);
+                animator.SetBool("isAttacking", false);
+                break;
+            case "Attacking":
+                animator.SetBool("isIdle", false);
+                animator.SetBool("isMoving", false);
+                animator.SetBool("isAttacking", true);
+                break;
+            case "Dead":
+                animator.SetBool("isIdle", false);
+                animator.SetBool("isMoving", false);
+                animator.SetBool("isAttacking", false);
+                animator.SetBool("isDead", true);
+                break;
+
+        }
+    }
+
+    private void FlipCharacter(float direction)
+    {
+        if (direction > 0)
+        {
+            transform.localScale = new Vector3(1, 1, 1); // Facing right
+        }
+        else if (direction < 0)
+        {
+            transform.localScale = new Vector3(-1, 1, 1); // Facing left
+        }
+    }
+
 }
