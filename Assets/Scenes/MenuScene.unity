@@ -5993,7 +5993,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62f59a694020ae04fb2b8d6d423eea37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenu
-  _newGameLevel: LevelOne
+  _newGameLevel: PlaytestScene
   noSavedGameDialog: {fileID: 1224223317}
 --- !u!4 &1722155708
 Transform:
