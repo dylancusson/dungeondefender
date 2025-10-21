@@ -1,5 +1,10 @@
 using UnityEngine;
 using System.Collections; // Required for Invoke/Coroutines
+using System.Collections.Generic;
+using Unity.VisualScripting;
+using UnityEngine.InputSystem.XR.Haptics;
+using UnityEngine.Tilemaps;
+using UnityEngine.AI; // Required for Lists
 
 public class Character : MonoBehaviour
 {
@@ -7,6 +12,10 @@ public class Character : MonoBehaviour
     private CharacterStats stats;
     private CharacterHealth health;
     private CharacterTargeting targeting;
+    private NavMeshAgent agent;
+
+    // Path recalculation control
+    public float pathRecalculationRate = 1f; // seconds
 
     // Attack state control
     public bool canAttack = true;
@@ -21,6 +30,9 @@ public class Character : MonoBehaviour
         stats = GetComponent<CharacterStats>();
         health = GetComponent<CharacterHealth>();
         targeting = GetComponent<CharacterTargeting>();
+        agent = GetComponent<NavMeshAgent>();
+        if (agent == null) Debug.LogError("NavMeshAgent component missing from " + gameObject.name);
+        agent.autoBraking = false; // For continuous movement
     }
 
     // Public method to allow other components (like Health) to change the state
@@ -32,23 +44,42 @@ public class Character : MonoBehaviour
 
     void Update()
     {
-        
+
         switch (currentState)
         {
             case State.idle:
+                // FindTarget logic may change the state to moving
                 targeting.FindTarget();
+
+                // If a target was found, initiate pathfinding
+                if (currentState == State.moving) // targeting.FindTarget() likely calls SetState(State.moving)
+                {
+                    // We need the target's position to start pathfinding
+                    StartMoveToTarget(targeting.target.transform.position);
+                }
                 break;
 
             case State.moving:
                 if (targeting.target == null)
                 {
+                    agent.ResetPath(); // Stop the agent
                     SetState(State.idle);
                 }
                 else if (targeting.IsTargetInAttackRange())
                 {
+                    agent.ResetPath(); // Stop the agent
                     SetState(State.attacking);
                 }
-                // else { /* MoveTowardsTarget() using stats.currentMoveSpeed */ }
+                else
+                {
+                    // Simple Repath Check (No need for complicated timers!)
+                    if (agent.remainingDistance < 1f || Time.time >= pathRecalculationRate)
+                    {
+                        // Recalculate if far away, OR if the path is almost done
+                        StartMoveToTarget(targeting.target.transform.position);
+                        pathRecalculationRate = Time.time + pathRecalculationRate;
+                    }
+                }
                 break;
 
             case State.attacking:
@@ -75,7 +106,7 @@ public class Character : MonoBehaviour
                 break;
 
             case State.dead:
-                // Die();
+                // Die(); // Call death logic like adding score, playing animation, etc
                 Destroy(gameObject);
                 break;
         }
@@ -111,4 +142,19 @@ public class Character : MonoBehaviour
     {
         canAttack = true;
     }
+
+    public void StartMoveToTarget(Vector3 targetPosition)
+    {
+        if (agent == null || !agent.isOnNavMesh) {
+            Debug.LogWarning("Agent not on NavMesh or is null");
+            return;
+        }
+        if (agent.isActiveAndEnabled)
+        {
+            agent.SetDestination(targetPosition);
+            SetState(State.moving);
+        }
+    }
+
+    
 }

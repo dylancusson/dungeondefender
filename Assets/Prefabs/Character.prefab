@@ -50,6 +50,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d11078d3a9eeac47bfe865ca2d0f739, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pathfinding: {fileID: 0}
+  pathRecalculationInterval: 0.5
   canAttack: 1
   currentState: 0
 --- !u!58 &8598965648839888989
