@@ -16,6 +16,9 @@ public class Character : MonoBehaviour
     private NavMeshAgent agent;
     private Animator animator;
 
+    private BasicAttack basicAttack;
+
+
     // Path recalculation control
     public float pathRecalculationRate = 1f; // seconds
 
@@ -35,7 +38,10 @@ public class Character : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
         animator.SetBool("isIdle", true);
+        basicAttack = GetComponent<BasicAttack>();
+        
         if (agent == null) Debug.LogError("NavMeshAgent component missing from " + gameObject.name);
+        if (basicAttack == null) Debug.LogError("BasicAttack component missing from " + gameObject.name);
         agent.autoBraking = false; // For continuous movement
     }
 
@@ -111,7 +117,6 @@ public class Character : MonoBehaviour
                 else if (canAttack)
                 {
                     Attack();
-                    stats.GainMana();
                 }
                 break;
 
@@ -140,7 +145,9 @@ public class Character : MonoBehaviour
             return;
         }
 
-        Debug.Log("Attacking target: " + targeting.target.name + " for " + stats.currentAttackDmg + " damage.");
+        Debug.Log(gameObject + " is Attacking target: " + targeting.target.name + " for " + stats.currentAttackDmg + " damage.");
+        basicAttack.Attack(targeting.target.transform.position);
+        stats.GainMana();
 
         // **Damage Delegation:** Find the target's Health component and call TakeDamage
         CharacterHealth targetHealth = targeting.target.GetComponent<CharacterHealth>();
