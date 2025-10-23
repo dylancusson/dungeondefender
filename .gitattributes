@@ -1,0 +1,4 @@
+# Unity YAML files must use the custom merge tool
+*.unity merge=unityyamlmerge
+*.prefab merge=unityyamlmerge
+*.asset merge=unityyamlmerge
