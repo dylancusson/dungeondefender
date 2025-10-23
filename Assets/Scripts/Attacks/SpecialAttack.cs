@@ -20,4 +20,5 @@ public abstract class SpecialAttack : MonoBehaviour
     /// </summary>
     /// <param name="targetPosition">The desired world position to attack.</param>
     public abstract void SpecialATK();
+
 }

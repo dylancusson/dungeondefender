@@ -64,4 +64,17 @@ public class CharacterTargeting : MonoBehaviour
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, detectionRadius);
     }
+
+    public Vector3 GetTargetPos()
+    {
+        if (target != null)
+        {
+            return target.transform.position;
+        }
+        else
+        {
+            return Vector3.zero;
+        }
+        
+    }
 }
