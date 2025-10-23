@@ -4,7 +4,7 @@ public class CharacterHealth : MonoBehaviour
 {
     // Reference to the stats component
     private CharacterStats stats;
-    private Animator animator;
+    public Animator animator;
 
     // Health variables are now managed here
     public int currentHealth;
@@ -21,7 +21,6 @@ public class CharacterHealth : MonoBehaviour
     void Start()
     {
         stats = GetComponent<CharacterStats>();
-        animator = GetComponent<Animator>();
 
         if (stats != null)
         {
@@ -35,8 +34,9 @@ public class CharacterHealth : MonoBehaviour
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
+        stats.GainMana(stats.manaHitGainRate * stats.manaGainRate); // Gain mana on taking damage
         animator.SetTrigger("isHit");
-        Debug.Log("Took damage: " + damage + ", Current Health: " + currentHealth);
+        Debug.Log(gameObject + " Took damage: " + damage + ", Current Health: " + currentHealth);
         healthBar.updateHealthBar(currentHealth, maximumHealth);
 
         if (currentHealth <= 0)

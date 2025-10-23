@@ -14,10 +14,11 @@ public class Character : MonoBehaviour
     private CharacterHealth health;
     private CharacterTargeting targeting;
     private NavMeshAgent agent;
-    private Animator animator;
 
     private BasicAttack basicAttack;
+    private SpecialAttack specialAttack;
 
+    public Animator animator;
 
     // Path recalculation control
     public float pathRecalculationRate = 1f; // seconds
@@ -36,10 +37,10 @@ public class Character : MonoBehaviour
         health = GetComponent<CharacterHealth>();
         targeting = GetComponent<CharacterTargeting>();
         agent = GetComponent<NavMeshAgent>();
-        animator = GetComponent<Animator>();
         animator.SetBool("isIdle", true);
         basicAttack = GetComponent<BasicAttack>();
-        
+        specialAttack = GetComponent<SpecialAttack>();
+
         if (agent == null) Debug.LogError("NavMeshAgent component missing from " + gameObject.name);
         if (basicAttack == null) Debug.LogError("BasicAttack component missing from " + gameObject.name);
         agent.autoBraking = false; // For continuous movement
@@ -93,13 +94,7 @@ public class Character : MonoBehaviour
                         // Recalculate if far away, OR if the path is almost done
                         StartMoveToTarget(targeting.target.transform.position);
                         pathRecalculationRate = Time.time + pathRecalculationRate;
-                        // Face the target while moving updating every repath
-                        if (targeting.target != null)
-                        {
-                            // Flip sprite to face target
-                            float directionToTarget = targeting.target.transform.position.x - transform.position.x;
-                            FlipCharacter(directionToTarget);
-                        }
+                        
                     }
                 }
                 
@@ -121,8 +116,8 @@ public class Character : MonoBehaviour
                 break;
 
             case State.special:
-                // SpecialAbility();
-                Debug.Log("Using special ability!");
+                specialAttack.SpecialATK();
+                Debug.Log(gameObject.name + ": Using special ability!");
                 stats.currentMana = 0;
                 SetState(State.moving); // Or idle, depending on your design
                 break;
@@ -214,17 +209,4 @@ public class Character : MonoBehaviour
 
         }
     }
-
-    private void FlipCharacter(float direction)
-    {
-        if (direction > 0)
-        {
-            transform.localScale = new Vector3(1, 1, 1); // Facing right
-        }
-        else if (direction < 0)
-        {
-            transform.localScale = new Vector3(-1, 1, 1); // Facing left
-        }
-    }
-
 }

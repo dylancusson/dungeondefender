@@ -8,6 +8,7 @@ public class CharacterStats : MonoBehaviour
     public int maxHealth = 100;
     public int maxMana = 50;
     public int manaGainRate = 5;
+    public int manaHitGainRate = 2;
     public int maxAttackDmg = 10;
     public float baseAttackRange = 2f;
 
@@ -30,6 +31,15 @@ public class CharacterStats : MonoBehaviour
     }
 
     // Example function to gain mana
+    public void GainMana(int amount)
+    {
+        currentMana += amount;
+        if (currentMana > maxMana)
+        {
+            currentMana = maxMana;
+        }
+        Debug.Log(gameObject + ": Current Mana: " + currentMana);
+    }
     public void GainMana()
     {
         currentMana += manaGainRate;
@@ -37,7 +47,7 @@ public class CharacterStats : MonoBehaviour
         {
             currentMana = maxMana;
         }
-        Debug.Log("Current Mana: " + currentMana);
+        Debug.Log(gameObject + ": Current Mana: " + currentMana);
     }
 
     // You can add methods for buff/debuff management here.
