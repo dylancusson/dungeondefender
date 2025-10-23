@@ -11,6 +11,7 @@ public class CharacterStats : MonoBehaviour
     public int manaHitGainRate = 2;
     public int maxAttackDmg = 10;
     public float baseAttackRange = 2f;
+    public int value = 0; // Could represent gold or score value
 
     [Header("Current/Modifiable Stats")]
     // Other scripts will read and potentially modify these current values
@@ -20,6 +21,8 @@ public class CharacterStats : MonoBehaviour
     public float currentAttackRange;
     public int currentMana;
 
+    private Currencies currencies;
+
     void Start()
     {
         // Initialize current stats from base stats
@@ -28,6 +31,7 @@ public class CharacterStats : MonoBehaviour
         currentMoveSpeed = baseMoveSpeed;
         currentAttackRange = baseAttackRange;
         currentMana = 0;
+        currencies = Currencies.Instance;
     }
 
     // Example function to gain mana
@@ -50,5 +54,10 @@ public class CharacterStats : MonoBehaviour
         Debug.Log(gameObject + ": Current Mana: " + currentMana);
     }
 
+    public void GainGold()
+    {
+        currencies.gainMoney(value);
+        Debug.Log("Gained Gold: " + value);
+    }
     // You can add methods for buff/debuff management here.
 }

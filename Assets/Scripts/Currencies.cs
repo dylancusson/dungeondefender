@@ -4,6 +4,7 @@ using TMPro;
 
 public class Currencies : MonoBehaviour
 {
+    public static Currencies Instance { get; private set; }
     private int playerGold;
     private int playerMana;
 
@@ -24,6 +25,18 @@ public class Currencies : MonoBehaviour
         playerMana = startingMana;
     }
 
+    private void Awake()
+    {
+        // Makes sure there is only one instance of Currencies
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this.gameObject);
+        }
+        else
+        {
+            Instance = this;
+        }
+    }
     // Update is called once per frame
     void Update()
     {

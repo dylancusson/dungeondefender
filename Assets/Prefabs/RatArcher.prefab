@@ -81,7 +81,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: 644105380983292189, guid: 847aeb6e7c5ff034f9818b73decfaf92, type: 3}
+  m_Sprite: {fileID: -651710525796843592, guid: 984584b64f4897f44b4844721d3b97b3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -102,7 +102,7 @@ Animator:
   m_GameObject: {fileID: 222188823488271612}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b4a406d6b0d6f7a4f8d80d0c42d2363b, type: 2}
+  m_Controller: {fileID: 9100000, guid: fa083de4e2dab6345a5f303276bf7857, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -521,7 +521,7 @@ Transform:
   m_GameObject: {fileID: 3413195051862931669}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.018, y: -0.106, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -653,8 +653,8 @@ GameObject:
   - component: {fileID: 8727479085813599341}
   - component: {fileID: 2683562447811284813}
   m_Layer: 0
-  m_Name: Enemy - Archer
-  m_TagString: Enemy
+  m_Name: RatArcher
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -765,6 +765,7 @@ MonoBehaviour:
   manaHitGainRate: 1
   maxAttackDmg: 10
   baseAttackRange: 20
+  value: 0
   currentMoveSpeed: 0
   currentAttackSpeed: 0
   currentAttackDmg: 0
@@ -783,7 +784,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   detectionRadius: 100
-  targetTag: Player
+  targetTag: Enemy
   target: {fileID: 0}
 --- !u!195 &889389566592027512
 NavMeshAgent:
@@ -835,6 +836,8 @@ MonoBehaviour:
   damage: 1
   arrowPrefab: {fileID: 6149705559187848998, guid: e8ef8ff965ce67d488f11c28b3015e30, type: 3}
   arrowSpeed: 40
+  shotsToFire: 3
+  delayBetweenShots: 0.2
 --- !u!114 &8727479085813599341
 MonoBehaviour:
   m_ObjectHideFlags: 0

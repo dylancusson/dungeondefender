@@ -26,6 +26,9 @@ public class Character : MonoBehaviour
     // Attack state control
     public bool canAttack = true;
 
+    // Paid out its gold reward upon death
+    private bool hasPaidReward = false;
+
     // Define the States
     public enum State { idle, moving, attacking, special, dead }
     public State currentState = State.idle;
@@ -127,6 +130,11 @@ public class Character : MonoBehaviour
                 SetAnimation("Dead");
                 Debug.Log(gameObject.name + " is dead and will be destroyed.");
                 Invoke("OnDeath", 1f); // Delay to allow death animation
+                if (hasPaidReward == false)
+                {
+                    stats.GainGold();
+                    hasPaidReward = true;
+                }
                 break;
         }
     }
@@ -166,6 +174,7 @@ public class Character : MonoBehaviour
 
     void OnDeath()
     {
+        
         Destroy(gameObject);
     }
     public void StartMoveToTarget(Vector3 targetPosition)
