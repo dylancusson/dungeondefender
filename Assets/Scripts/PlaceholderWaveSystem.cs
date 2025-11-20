@@ -1,11 +1,11 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlaceholderWaveSystem : MonoBehaviour
 {
 
     //I just made this so I can actually make sure the wave counter works, feel free to change - Ryan
-
     private int currentWave;
 
     [SerializeField] public int lastWave;
@@ -26,12 +26,8 @@ public class PlaceholderWaveSystem : MonoBehaviour
         if (currentWave > lastWave)
         {
             Debug.Log("LevelDone!");
+            SceneManager.LoadSceneAsync("YouWin");
         }
-        /*else
-        {
-            waveCounter.text = "Wave: " + currentWave.ToString() + "/" + lastWave.ToString();
-        }*/
-
     }
 
     // Update is called once per frame

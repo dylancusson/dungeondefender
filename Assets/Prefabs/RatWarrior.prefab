@@ -709,6 +709,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MeleeBasicAttack
   spawnPoint: {fileID: 716499366052855137}
   damage: 1
+  SoundEffect: {fileID: 8300000, guid: 1177c957796a22144ad8c383b6b45fef, type: 3}
 --- !u!114 &6120684308760576261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -748,6 +749,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MeleeCleaveSpecial
   spawnPoint: {fileID: 716499366052855137}
   damage: 1
+  SoundEffect: {fileID: 8300000, guid: 4cb44a448914eae43b7b1359ecb01e26, type: 3}
 --- !u!1 &6641745806903925433
 GameObject:
   m_ObjectHideFlags: 0

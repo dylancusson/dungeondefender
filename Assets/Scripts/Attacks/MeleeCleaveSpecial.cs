@@ -5,6 +5,9 @@ public class MeleeCleaveSpecial : SpecialAttack
     private CharacterStats stats;
     private CharacterTargeting targeting;
     private CharacterHealth myHealth;
+
+    [SerializeField] private AudioClip SoundEffect;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void Awake()
     {
@@ -27,6 +30,7 @@ public class MeleeCleaveSpecial : SpecialAttack
                 CharacterHealth enemyHealth = hitCollider.GetComponent<CharacterHealth>();
                 if (enemyHealth != null)
                 {
+                    SoundFXManager.Instance.playSoundFXClip(SoundEffect, transform, 1f);
                     enemyHealth.TakeDamage(2 * stats.currentAttackDmg);
                     myHealth.TakeDamage(-1 * stats.currentAttackDmg); // Heal self for half the damage dealt
 

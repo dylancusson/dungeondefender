@@ -11,6 +11,9 @@ public class PiercingArrowSpecial : SpecialAttack
     private CharacterStats stats;
     private CharacterTargeting targeting;
 
+    [SerializeField] private AudioClip SoundEffectOne;
+    [SerializeField] private AudioClip SoundEffectTwo;
+
     public void Awake()
     {
         if (arrowPrefab == null)
@@ -33,6 +36,7 @@ public class PiercingArrowSpecial : SpecialAttack
     // Method to instantiate and launch an arrow towards a target position
     public override void SpecialATK()
     {
+        SoundFXManager.Instance.playSoundFXClip(SoundEffectOne, transform, 1f);
         StartCoroutine(FireMultipleArrows());
     }
     private void RotateArrow(Transform arrowTransform, Vector2 direction)
@@ -67,6 +71,7 @@ public class PiercingArrowSpecial : SpecialAttack
         Vector3 targetPosition = targeting.GetTargetPos();
         while (shotsFired < shotsToFire)
         {
+            SoundFXManager.Instance.playSoundFXClip(SoundEffectTwo, transform, 1f);
             FireArrowAtTarget(targetPosition, damage, targetTag);
             shotsFired++;
 

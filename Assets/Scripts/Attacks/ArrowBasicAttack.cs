@@ -7,6 +7,8 @@ public class ArrowBasicAttack : BasicAttack
 
     private CharacterStats stats;
 
+    [SerializeField] private AudioClip SoundEffect;
+
     public void Awake()
     {
         if (arrowPrefab == null)
@@ -28,6 +30,7 @@ public class ArrowBasicAttack : BasicAttack
     // Method to instantiate and launch an arrow towards a target position
     public override void Attack(Vector3 targetPosition)
     {
+        SoundFXManager.Instance.playSoundFXClip(SoundEffect, transform, 1f);
         GameObject arrow = Instantiate(arrowPrefab, transform.position, Quaternion.identity);
         arrow.GetComponent<ArrowProjectile>().SetTargetPosition(targetPosition);
         Vector3 direction = (targetPosition - transform.position).normalized;

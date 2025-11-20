@@ -2,9 +2,13 @@ using UnityEngine;
 
 public class MeleeBasicAttack : BasicAttack
 {
+
+    [SerializeField] private AudioClip SoundEffect;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public override void Attack(Vector3 targetPosition)
     {
+        SoundFXManager.Instance.playSoundFXClip(SoundEffect, transform, 1f);
         // Calculate direction to target
         Vector3 direction = (targetPosition - spawnPoint.position).normalized;
         // For melee attack, we can simply log the attack action

@@ -9,6 +9,7 @@ public class DraggableSlot : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     [SerializeField] private bool isLocked;
     [SerializeField] public int price;
     [SerializeField] public GameObject Type;
+    [SerializeField] public bool isSpell;
 
     [Header("Sets where not to drag")]
     [SerializeField] GameObject leftPanel;
@@ -56,13 +57,27 @@ public class DraggableSlot : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
             Vector3 worldPoint = Camera.main.ScreenToWorldPoint(screenPoint);
             Vector3Int cellPosition = theLevel.WorldToCell(worldPoint);
 
-            if(theCurrencies.SpendMoney(price))
+            if(isSpell)
             {
-                Instantiate(Type, worldPoint, Quaternion.identity);
+                if (theCurrencies.SpendMana(price))
+                {
+                    Instantiate(Type, worldPoint, Quaternion.identity);
+                }
+                else
+                {
+                    Debug.Log("Not enough mana");
+                }
             }
             else
             {
-                Debug.Log("Not enough money");
+                if (theCurrencies.SpendMoney(price))
+                {
+                    Instantiate(Type, worldPoint, Quaternion.identity);
+                }
+                else
+                {
+                    Debug.Log("Not enough money");
+                }
             }
         }
         else
