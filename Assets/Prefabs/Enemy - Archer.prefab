@@ -764,7 +764,8 @@ MonoBehaviour:
   manaGainRate: 10
   manaHitGainRate: 1
   maxAttackDmg: 10
-  baseAttackRange: 20
+  baseAttackRange: 15
+  value: 20
   currentMoveSpeed: 0
   currentAttackSpeed: 0
   currentAttackDmg: 0
@@ -835,6 +836,8 @@ MonoBehaviour:
   damage: 1
   arrowPrefab: {fileID: 6149705559187848998, guid: e8ef8ff965ce67d488f11c28b3015e30, type: 3}
   arrowSpeed: 40
+  shotsToFire: 3
+  delayBetweenShots: 0.2
 --- !u!114 &8727479085813599341
 MonoBehaviour:
   m_ObjectHideFlags: 0
