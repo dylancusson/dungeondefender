@@ -759,13 +759,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseMoveSpeed: 6
   baseAttackSpeed: 1
-  maxHealth: 250
+  maxHealth: 150
   maxMana: 100
   manaGainRate: 5
   manaHitGainRate: 2
   maxAttackDmg: 10
   baseAttackRange: 2
-  value: 25
+  value: 30
   currentMoveSpeed: 0
   currentAttackSpeed: 0
   currentAttackDmg: 0
