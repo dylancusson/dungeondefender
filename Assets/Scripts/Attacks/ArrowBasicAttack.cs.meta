@@ -1,2 +1,14 @@
 fileFormatVersion: 2
 guid: 886cf1b05349f40dab0f5b4755eda49b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - spawnPoint: {instanceID: 0}
+  - arrowPrefab: {instanceID: 0}
+  - SoundEffect: {fileID: 8300000, guid: da50fd0c9097c0d47bf406f9d8eff40c, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

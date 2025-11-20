@@ -765,6 +765,7 @@ MonoBehaviour:
   manaHitGainRate: 1
   maxAttackDmg: 10
   baseAttackRange: 20
+  value: 0
   currentMoveSpeed: 0
   currentAttackSpeed: 0
   currentAttackDmg: 0
@@ -835,6 +836,10 @@ MonoBehaviour:
   damage: 1
   arrowPrefab: {fileID: 6149705559187848998, guid: e8ef8ff965ce67d488f11c28b3015e30, type: 3}
   arrowSpeed: 40
+  shotsToFire: 3
+  delayBetweenShots: 0.2
+  SoundEffectOne: {fileID: 8300000, guid: d8645c714461af74e83940fa708c6d99, type: 3}
+  SoundEffectTwo: {fileID: 8300000, guid: 360a46047975bbb4389f09cf7ba278ad, type: 3}
 --- !u!114 &8727479085813599341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -851,6 +856,7 @@ MonoBehaviour:
   damage: 1
   arrowPrefab: {fileID: 6149705559187848998, guid: 9e0f0d6ba52cb42c89f58cbcf1f78862, type: 3}
   arrowSpeed: 40
+  SoundEffect: {fileID: 8300000, guid: da50fd0c9097c0d47bf406f9d8eff40c, type: 3}
 --- !u!114 &2683562447811284813
 MonoBehaviour:
   m_ObjectHideFlags: 0

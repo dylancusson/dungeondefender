@@ -4,11 +4,16 @@ using UnityEngine.UI;
 
 public class ReturnToMenu : MonoBehaviour
 {
-    public string ChangeTo;
+    [SerializeField] public string ChangeTo;
 
     public void SwapScene()
     {
         SceneManager.LoadSceneAsync(ChangeTo);
+    }
+
+    public void SwapScene(string sceneTarget)
+    {
+        SceneManager.LoadSceneAsync(sceneTarget);
     }
 
 }

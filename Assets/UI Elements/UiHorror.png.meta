@@ -25728,7 +25728,7 @@ TextureImporter:
         width: 22
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -25737,6 +25737,28 @@ TextureImporter:
       bones: []
       spriteID: 44aa0f59867692349b758134ddb07af6
       internalID: -1874431604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiHorror_1027
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34
+        width: 31
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ae3451b047058428c997d6de32b820
+      internalID: -741045658
       vertices: []
       indices: 
       edges: []
@@ -25790,6 +25812,7 @@ TextureImporter:
       UiHorror_1024: 619266138
       UiHorror_1025: -987887956
       UiHorror_1026: -1874431604
+      UiHorror_1027: -741045658
       UiHorror_103: 3729633893951756959
       UiHorror_104: 8298951911807549289
       UiHorror_105: 3186056099293806466
