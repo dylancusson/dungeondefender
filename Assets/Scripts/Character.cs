@@ -49,6 +49,23 @@ public class Character : MonoBehaviour
         agent.autoBraking = false; // For continuous movement
     }
 
+    private void OnEnable()
+    {   
+        if (this.tag == "Enemy")
+        {
+            WaveManager.enemyCount++;
+        }
+            
+    }
+
+    private void OnDisable()
+    {
+        if (this.tag == "Enemy")
+        {
+            WaveManager.enemyCount--;
+            WaveManager.CheckWinCondition();
+        }
+    }
     // Public method to allow other components (like Health) to change the state
     public void SetState(State newState)
     {

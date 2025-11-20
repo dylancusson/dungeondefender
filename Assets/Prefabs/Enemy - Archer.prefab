@@ -765,7 +765,7 @@ MonoBehaviour:
   manaHitGainRate: 1
   maxAttackDmg: 10
   baseAttackRange: 20
-  value: 0
+  value: 20
   currentMoveSpeed: 0
   currentAttackSpeed: 0
   currentAttackDmg: 0
