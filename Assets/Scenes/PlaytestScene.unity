@@ -23958,6 +23958,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 82555237}
     m_Modifications:
     - target: {fileID: 1358093579105193152, guid: 31e6f04de6525c94ea87016f751582cf, type: 3}
+      propertyPath: Type
+      value: 
+      objectReference: {fileID: 5487692324345558775, guid: 9dff2fb168038f64fb0995a9c6e14367, type: 3}
+    - target: {fileID: 1358093579105193152, guid: 31e6f04de6525c94ea87016f751582cf, type: 3}
       propertyPath: price
       value: 25
       objectReference: {fileID: 0}
@@ -23985,6 +23989,10 @@ PrefabInstance:
       propertyPath: theCurrencies
       value: 
       objectReference: {fileID: 553765063}
+    - target: {fileID: 2295023331761820252, guid: 31e6f04de6525c94ea87016f751582cf, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 6120222071889341827, guid: bf57d57454863864d9cbb3286cfe1f05, type: 3}
     - target: {fileID: 3213951289071930143, guid: 31e6f04de6525c94ea87016f751582cf, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
