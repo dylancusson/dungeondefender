@@ -630,6 +630,7 @@ GameObject:
   - component: {fileID: 6120684308760576261}
   - component: {fileID: 9186463345219446505}
   - component: {fileID: 1844708158361505174}
+  - component: {fileID: 7592122912684285881}
   m_Layer: 0
   m_Name: Enemy - Warrior
   m_TagString: Enemy
@@ -841,6 +842,33 @@ MonoBehaviour:
   spawnPoint: {fileID: 716499366052855137}
   damage: 1
   SoundEffect: {fileID: 8300000, guid: 4cb44a448914eae43b7b1359ecb01e26, type: 3}
+--- !u!50 &7592122912684285881
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5964439755024053827}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 1
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &6641745806903925433
 GameObject:
   m_ObjectHideFlags: 0
