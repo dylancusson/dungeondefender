@@ -25,7 +25,7 @@ public class MeleeCleaveSpecial : SpecialAttack
         foreach (var hitCollider in hitColliders)
         {
             // Check if the collider belongs to an enemy
-            if (hitCollider.CompareTag(targeting.targetTag))
+            if (hitCollider.CompareTag(targeting.enemyTag))
             {
                 CharacterHealth enemyHealth = hitCollider.GetComponent<CharacterHealth>();
                 if (enemyHealth != null)

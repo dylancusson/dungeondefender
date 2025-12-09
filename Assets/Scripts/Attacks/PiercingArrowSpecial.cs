@@ -67,7 +67,7 @@ public class PiercingArrowSpecial : SpecialAttack
     {
         int shotsFired = 0;
         int damage = stats.currentAttackDmg / 2;
-        string targetTag = targeting.targetTag;
+        string targetTag = targeting.enemyTag;
         Vector3 targetPosition = targeting.GetTargetPos();
         while (shotsFired < shotsToFire)
         {
