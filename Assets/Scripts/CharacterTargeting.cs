@@ -1,71 +1,105 @@
 using UnityEngine;
+using System.Linq; // Added for sorting logic if needed, though manual is faster
 
 public class CharacterTargeting : MonoBehaviour
 {
     [Header("Targeting Settings")]
     public float detectionRadius = 10f;
-    public string targetTag = "Player"; // Tag of the target to detect
+    public string enemyTag = "Enemy"; // The tag of the enemies
+    public string nexusTag = "Nexus"; // The tag of the structure at the end of the zone
 
-    [HideInInspector] public GameObject target; // Target GameObject to move towards
-
+    [HideInInspector] public GameObject target;
     private CharacterStats stats;
     private Character characterController;
+    private GameObject cachedNexus; // Store nexus so we don't Find it every frame
 
     void Start()
     {
         stats = GetComponent<CharacterStats>();
         characterController = GetComponent<Character>();
+
+        // Cache the nexus to save performance
+        GameObject nexusObj = GameObject.FindGameObjectWithTag(nexusTag);
+        if (nexusObj != null) cachedNexus = nexusObj;
+        else Debug.LogWarning($"No GameObject with tag '{nexusTag}' found in scene!");
     }
 
-    // Finds the closest target within the detection radius
-    public void FindTarget()
+    // Logic: Find closest enemy. If none, return Nexus.
+    public void FindBestTarget()
     {
-        if (target != null) return; // Already have a target
+        GameObject bestCandidate = null;
+        float closestDistanceSqr = Mathf.Infinity;
+        Vector3 currentPos = transform.position;
 
-        Collider2D[] hitColliders = Physics2D.OverlapCircleAll(transform.position, detectionRadius);
+        // 1. Scan for Enemies
+        Collider2D[] hitColliders = Physics2D.OverlapCircleAll(currentPos, detectionRadius);
 
         foreach (var hitCollider in hitColliders)
         {
-            if (hitCollider.CompareTag(targetTag))
+            if (hitCollider.CompareTag(enemyTag))
             {
-                target = hitCollider.gameObject;
-                Debug.Log("Target found: " + target.name);
+                // Check distance to find the closest one
+                Vector3 directionToTarget = hitCollider.transform.position - currentPos;
+                float dSqrToTarget = directionToTarget.sqrMagnitude; // sqrMagnitude is faster than Distance
+
+                if (dSqrToTarget < closestDistanceSqr)
+                {
+                    closestDistanceSqr = dSqrToTarget;
+                    bestCandidate = hitCollider.gameObject;
+                }
+            }
+        }
+
+        // 2. Logic Evaluation
+        if (bestCandidate != null)
+        {
+            // We found an enemy
+            if (target != bestCandidate)
+            {
+                target = bestCandidate;
+                Debug.Log("Switched target to enemy: " + target.name);
                 characterController.SetState(Character.State.moving);
-                return;
+            }
+        }
+        else
+        {
+            // No enemies in range. Do we have a Nexus?
+            if (cachedNexus != null)
+            {
+                // Only switch if we aren't already targeting it and are an enemy
+                if (target != cachedNexus && this.tag == "Enemy")
+                {
+                    target = cachedNexus;
+                    // Debug.Log("No enemies. Moving to Nexus.");
+                    characterController.SetState(Character.State.moving);
+                }
+            }
+            else
+            {
+                // No enemies AND no Nexus found
+                target = null;
+                characterController.SetState(Character.State.idle);
             }
         }
     }
 
-    // Clears the target and resets the state
-    public void ClearTarget()
-    {
-        target = null;
-        characterController.SetState(Character.State.idle);
-        Debug.Log("Target cleared.");
-    }
-
-    // Checks if the target is within the character's attack range
     public bool IsTargetInAttackRange()
     {
         if (target == null || stats == null) return false;
-
-        // Use the currentAttackRange from the Stats component
         float distance = Vector2.Distance(transform.position, target.transform.position);
         return distance <= stats.currentAttackRange;
     }
 
-    // Draw Gizmos for visualization
     private void OnDrawGizmosSelected()
     {
         if (stats == null) return;
-
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, stats.currentAttackRange);
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, detectionRadius);
     }
-
     public Vector3 GetTargetPos()
+
     {
         if (target != null)
         {
@@ -75,6 +109,5 @@ public class CharacterTargeting : MonoBehaviour
         {
             return Vector3.zero;
         }
-
     }
 }

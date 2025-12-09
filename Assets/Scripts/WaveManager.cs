@@ -85,12 +85,15 @@ public class WaveManager : MonoBehaviour
 
     private Vector3 GetSpawnPosition()
     {
-
+        // 1. Pick a random point in the radius (World Space)
         Vector2 randomDirection = Random.insideUnitCircle.normalized;
-        Vector3 spawnPosition = transform.position + new Vector3(randomDirection.x, randomDirection.y, 0) * spawnRadius;
-        Vector3Int cellPosition = targetTilemap.WorldToCell(spawnPosition);
+        Vector3 randomWorldPoint = transform.position + new Vector3(randomDirection.x, randomDirection.y, 0) * spawnRadius;
 
-        return cellPosition;
+        // 2. Snap that point to the nearest Tile Grid coordinate
+        Vector3Int cellPosition = targetTilemap.WorldToCell(randomWorldPoint);
+
+        // 3. Convert that Grid coordinate back to the center of the cell in World Space
+        return targetTilemap.GetCellCenterWorld(cellPosition);
     }
 
     private void OnDrawGizmos()
@@ -99,16 +102,10 @@ public class WaveManager : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, spawnRadius);
     }
 
-    /*public static void CheckWinCondition()
+    public static void GameOver()
     {
-        
-        if (enemyCount <= 0 && currentWave >= maxWaves)
-        {
-            Debug.Log("All waves completed! You win!");
-            // Implement win condition logic here
-            SceneManager.LoadScene("YouWin");
-        }
-    }*/
+        SceneController.instance.NextScene("YouLose");
+    }
 
     public void Update()
     {

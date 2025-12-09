@@ -9,33 +9,30 @@ using UnityEngine.UIElements; // Required for Lists
 
 public class Character : MonoBehaviour
 {
-    // References to other components
     private CharacterStats stats;
     private CharacterHealth health;
     private CharacterTargeting targeting;
     private NavMeshAgent agent;
-
     private BasicAttack basicAttack;
     private SpecialAttack specialAttack;
 
     public Animator animator;
 
-    // Path recalculation control
-    public float pathRecalculationRate = 1f; // seconds
+    // Control how often we scan for new enemies (Optimization)
+    public float targetScanRate = 0.5f;
+    private float nextTargetScanTime = 0f;
 
-    // Attack state control
+    public float pathRecalculationRate = 1f;
+    private float nextPathRecalcTime = 0f;
+
     public bool canAttack = true;
-
-    // Paid out its gold reward upon death
     private bool hasPaidReward = false;
 
-    // Define the States
     public enum State { idle, moving, attacking, special, dead }
     public State currentState = State.idle;
 
     void Awake()
     {
-        // Get references to all sibling components
         stats = GetComponent<CharacterStats>();
         health = GetComponent<CharacterHealth>();
         targeting = GetComponent<CharacterTargeting>();
@@ -43,10 +40,7 @@ public class Character : MonoBehaviour
         animator.SetBool("isIdle", true);
         basicAttack = GetComponent<BasicAttack>();
         specialAttack = GetComponent<SpecialAttack>();
-
-        if (agent == null) Debug.LogError("NavMeshAgent component missing from " + gameObject.name);
-        if (basicAttack == null) Debug.LogError("BasicAttack component missing from " + gameObject.name);
-        agent.autoBraking = false; // For continuous movement
+        agent.autoBraking = false;
     }
 
     private void OnEnable()
@@ -65,6 +59,10 @@ public class Character : MonoBehaviour
             WaveManager.enemyCount--;
             //WaveManager.CheckWinCondition();
         }
+        if (this.tag == "Nexus")
+        {
+            WaveManager.GameOver();
+        }
     }
     // Public method to allow other components (like Health) to change the state
     public void SetState(State newState)
@@ -75,55 +73,69 @@ public class Character : MonoBehaviour
 
     void Update()
     {
+        // 1. Always check if target died or was destroyed externally
+        if (targeting.target == null && currentState != State.idle && currentState != State.dead)
+        {
+            // If target disappears, immediately scan for a new one
+            targeting.FindBestTarget();
+        }
 
         switch (currentState)
         {
             case State.idle:
-                //Update animation to idle
                 SetAnimation("Idle");
-                // FindTarget logic may change the state to moving
-                targeting.FindTarget();
 
-                // If a target was found, initiate pathfinding
-                if (currentState == State.moving) // targeting.FindTarget() likely calls SetState(State.moving)
+                // Scan for targets periodically
+                if (Time.time >= nextTargetScanTime)
                 {
-                    // We need the target's position to start pathfinding
+                    targeting.FindBestTarget();
+                    nextTargetScanTime = Time.time + targetScanRate;
+                }
+
+                if (currentState == State.moving && targeting.target != null)
+                {
                     StartMoveToTarget(targeting.target.transform.position);
                 }
                 break;
 
             case State.moving:
-                //Update animation to moving
                 SetAnimation("Moving");
+
+                // 2. Scan for better targets while moving
+                // This allows switching from Nexus -> Enemy if one appears
+                if (Time.time >= nextTargetScanTime)
+                {
+                    targeting.FindBestTarget(); // This might change targeting.target!
+                    nextTargetScanTime = Time.time + targetScanRate;
+                }
 
                 if (targeting.target == null)
                 {
-                    agent.ResetPath(); // Stop the agent
+                    agent.ResetPath();
                     SetState(State.idle);
                 }
                 else if (targeting.IsTargetInAttackRange())
                 {
-                    agent.ResetPath(); // Stop the agent
+                    agent.ResetPath();
                     SetState(State.attacking);
                 }
                 else
                 {
-                    // Simple Repath Check (No need for complicated timers!)
-                    if (agent.remainingDistance < 1f || Time.time >= pathRecalculationRate)
+                    // Movement Logic
+                    if (agent.remainingDistance < 1f || Time.time >= nextPathRecalcTime)
                     {
-                        // Recalculate if far away, OR if the path is almost done
+                        // Update destination in case the target (Enemy) moved
                         StartMoveToTarget(targeting.target.transform.position);
-                        pathRecalculationRate = Time.time + pathRecalculationRate;
-
+                        nextPathRecalcTime = Time.time + pathRecalculationRate;
                     }
                 }
-                
                 break;
 
             case State.attacking:
+                // ... [Keep existing Attack logic] ...
                 if (targeting.target == null || !targeting.IsTargetInAttackRange())
                 {
-                    SetState(State.moving); // Target moved out of range
+                    SetState(State.moving);
                 }
                 else if (stats.currentMana >= stats.maxMana)
                 {
@@ -136,18 +148,17 @@ public class Character : MonoBehaviour
                 break;
 
             case State.special:
+                // ... [Keep existing Special logic] ...
                 specialAttack.SpecialATK();
-                Debug.Log(gameObject.name + ": Using special ability!");
                 stats.currentMana = 0;
-                SetState(State.moving); // Or idle, depending on your design
+                SetState(State.moving);
                 break;
 
             case State.dead:
-                // Die(); // Call death logic like adding score, playing animation, etc
+                // ... [Keep existing Dead logic] ...
                 SetAnimation("Dead");
-                Debug.Log(gameObject.name + " is dead and will be destroyed.");
-                Invoke("OnDeath", 0.6f); // Delay to allow death animation
-                if (hasPaidReward == false)
+                if (!IsInvoking("OnDeath")) Invoke("OnDeath", 0.6f);
+                if (!hasPaidReward)
                 {
                     stats.GainGold();
                     hasPaidReward = true;
@@ -159,17 +170,11 @@ public class Character : MonoBehaviour
     // Attacking logic remains here as it ties movement, stats, and health together
     void Attack()
     {
-        if (targeting.target == null)
-        {
-            SetState(State.idle);
-            return;
-        }
+        if (targeting.target == null) { SetState(State.idle); return; }
 
-        Debug.Log(gameObject + " is Attacking target: " + targeting.target.name + " for " + stats.currentAttackDmg + " damage.");
         basicAttack.Attack(targeting.target.transform.position);
         stats.GainMana();
 
-        // **Damage Delegation:** Find the target's Health component and call TakeDamage
         CharacterHealth targetHealth = targeting.target.GetComponent<CharacterHealth>();
         if (targetHealth != null)
         {
@@ -177,10 +182,9 @@ public class Character : MonoBehaviour
         }
 
         canAttack = false;
-        // Schedule the next attack based on the current attack speed
         Invoke("ResetAttack", 1f / stats.currentAttackSpeed);
 
-        // Go back to moving/idle to re-check target status/range immediately
+        // Return to moving to re-evaluate position relative to target
         SetState(State.moving);
     }
 
@@ -203,7 +207,7 @@ public class Character : MonoBehaviour
         if (agent.isActiveAndEnabled)
         {
             agent.SetDestination(targetPosition);
-            SetState(State.moving);
+            
         }
     }
 

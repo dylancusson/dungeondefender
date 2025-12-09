@@ -668,6 +668,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 8794536959331562890}
+  targetScanRate: 0.5
   pathRecalculationRate: 1
   canAttack: 1
   currentState: 0
@@ -785,7 +786,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   detectionRadius: 100
-  targetTag: Player
+  enemyTag: Player
+  nexusTag: Nexus
   target: {fileID: 0}
 --- !u!114 &5902059480168141302
 MonoBehaviour:
