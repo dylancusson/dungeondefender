@@ -69,7 +69,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 1.75
+  m_Radius: 3
 --- !u!114 &4103774173855067894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82,7 +82,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0f3b9e8f47a33d42bac43544792c4ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  lifetime: 0.25
+  lifetime: 0.5
   damage: 50
   explosionPrefab: {fileID: 7846075351951998815, guid: 3b0c4fa83bc63934da4a45eee2a0a48b, type: 3}
 --- !u!50 &7006882998088856111

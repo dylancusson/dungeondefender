@@ -21,8 +21,9 @@ public class fireball : MonoBehaviour
 
             if (health != null){
                 health.TakeDamage(damage);
-            }     
-
+            }
+            Vector3 explosionPos = new Vector3(this.transform.position.x, this.transform.position.y, 0);
+            Instantiate(explosionPrefab, explosionPos, Quaternion.identity);
             Destroy(gameObject);   
         }
     }
