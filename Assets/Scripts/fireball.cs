@@ -3,10 +3,11 @@ using UnityEngine;
 public class fireball : MonoBehaviour
 {
     public float lifetime = 0.25f;
+    public int damage = 50;
     public GameObject explosionPrefab;
     void Start(){
         Destroy(gameObject, lifetime);
-
+        
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -14,12 +15,12 @@ public class fireball : MonoBehaviour
 
         if (other.CompareTag("Enemy")){
 
-            CharacterHealth health = other.GetComponent<CharacterHealth>();
+            CharacterHealth health = other.GetComponentInParent<CharacterHealth>();
 
             Debug.Log("Fireball detected enemy: " + other.name);
+
             if (health != null){
-                health.currentHealth -= 30;
-                Debug.Log("Enemy damaged. new health: " + health.currentHealth);
+                health.TakeDamage(damage);
             }     
 
             Destroy(gameObject);   

@@ -24144,6 +24144,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1358093579105193152, guid: 31e6f04de6525c94ea87016f751582cf, type: 3}
+      propertyPath: isLocked
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1358093579105193152, guid: 31e6f04de6525c94ea87016f751582cf, type: 3}
       propertyPath: theLevel
       value: 
       objectReference: {fileID: 398516629}
@@ -24159,6 +24163,10 @@ PrefabInstance:
       propertyPath: rightPanel
       value: 
       objectReference: {fileID: 82555236}
+    - target: {fileID: 1358093579105193152, guid: 31e6f04de6525c94ea87016f751582cf, type: 3}
+      propertyPath: theCurrencies
+      value: 
+      objectReference: {fileID: 553765063}
     - target: {fileID: 1711470482571873549, guid: 31e6f04de6525c94ea87016f751582cf, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.75

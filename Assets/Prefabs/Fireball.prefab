@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7006882998088856111}
   m_Layer: 0
   m_Name: Fireball
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83,6 +83,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   lifetime: 0.25
+  damage: 50
   explosionPrefab: {fileID: 7846075351951998815, guid: 3b0c4fa83bc63934da4a45eee2a0a48b, type: 3}
 --- !u!50 &7006882998088856111
 Rigidbody2D:
