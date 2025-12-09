@@ -12,7 +12,7 @@ public class MainMenu : MonoBehaviour
 
     public void NewGameDialogYes()
     {
-        SceneManager.LoadScene(_newGameLevel);
+        SceneController.instance.NextScene(_newGameLevel);
     }
 
     public void LoadGameDialogYes()
@@ -20,7 +20,7 @@ public class MainMenu : MonoBehaviour
         if (PlayerPrefs.HasKey("SavedLevel"))
         {
             levelToLoad = PlayerPrefs.GetString("SavedLevel");
-            SceneManager.LoadScene(levelToLoad);
+            SceneController.instance.NextScene(levelToLoad);
         }
         else
         {

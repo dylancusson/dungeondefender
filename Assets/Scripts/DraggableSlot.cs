@@ -19,6 +19,10 @@ public class DraggableSlot : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     [Header("Sets where it can be dropped")]
     [SerializeField] Tilemap theLevel;
 
+    [Header("Sets sound it makes when dropped")]
+    [SerializeField] private AudioClip successSoundEffect;
+    [SerializeField] private AudioClip failSoundEffect;
+
     private Vector2 DropPoint;
     private Transform parentAfterDrag;
 
@@ -62,10 +66,12 @@ public class DraggableSlot : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
                 if (theCurrencies.SpendMana(price))
                 {
                     Instantiate(Type, worldPoint, Quaternion.identity);
+                    SoundFXManager.Instance.playSoundFXClip(successSoundEffect, transform, 1f);
                 }
                 else
                 {
                     Debug.Log("Not enough mana");
+                    SoundFXManager.Instance.playSoundFXClip(failSoundEffect, transform, 1f);
                 }
             }
             else
@@ -73,10 +79,12 @@ public class DraggableSlot : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
                 if (theCurrencies.SpendMoney(price))
                 {
                     Instantiate(Type, worldPoint, Quaternion.identity);
+                    SoundFXManager.Instance.playSoundFXClip(successSoundEffect, transform, 1f);
                 }
                 else
                 {
                     Debug.Log("Not enough money");
+                    SoundFXManager.Instance.playSoundFXClip(failSoundEffect, transform, 1f);
                 }
             }
         }

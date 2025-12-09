@@ -91,10 +91,12 @@ MonoBehaviour:
   isLocked: 0
   price: 150
   Type: {fileID: 5964439755024053827, guid: 524de901156f5614593461b020269e26, type: 3}
+  isSpell: 0
   leftPanel: {fileID: 0}
   rightPanel: {fileID: 0}
   topPanel: {fileID: 0}
   theLevel: {fileID: 0}
+  theCurrencies: {fileID: 0}
 --- !u!1 &7336564215442758195
 GameObject:
   m_ObjectHideFlags: 0

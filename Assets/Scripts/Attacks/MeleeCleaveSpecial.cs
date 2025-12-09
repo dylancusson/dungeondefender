@@ -30,7 +30,7 @@ public class MeleeCleaveSpecial : SpecialAttack
                 CharacterHealth enemyHealth = hitCollider.GetComponent<CharacterHealth>();
                 if (enemyHealth != null)
                 {
-                    SoundFXManager.Instance.playSoundFXClip(SoundEffect, transform, 1f);
+                    SoundFXManager.Instance.playSoundFXClip(SoundEffect, transform, 0.25f);
                     enemyHealth.TakeDamage(2 * stats.currentAttackDmg);
                     myHealth.TakeDamage(-1 * stats.currentAttackDmg); // Heal self for half the damage dealt
 
