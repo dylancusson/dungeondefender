@@ -9944,8 +9944,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19c2e39b3b36b1046a90a2a460f9bc6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Currencies
-  startingGold: 125
-  startingMana: 100
+  startingGold: 150
+  startingMana: 125
   goldUI: {fileID: 1558712339}
   manaUI: {fileID: 1380394738}
 --- !u!114 &553765065

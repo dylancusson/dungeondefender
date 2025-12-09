@@ -20,7 +20,7 @@ public class MeleeCleaveSpecial : SpecialAttack
     public override void SpecialATK()
     {
 
-        float cleaveRange = (4f * stats.currentAttackRange); // units
+        float cleaveRange = (2f * stats.currentAttackRange); // units
         Collider2D[] hitColliders = Physics2D.OverlapCircleAll(transform.position, cleaveRange);
         foreach (var hitCollider in hitColliders)
         {
