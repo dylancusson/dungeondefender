@@ -10579,6 +10579,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pause
   PauseMenu: {fileID: 2093461149}
+  TutorialMenu: {fileID: 0}
+  showTutorial: 0
 --- !u!4 &553765066
 Transform:
   m_ObjectHideFlags: 0
@@ -20084,6 +20086,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 82555237}
     m_Modifications:
     - target: {fileID: 1358093579105193152, guid: 31e6f04de6525c94ea87016f751582cf, type: 3}
+      propertyPath: Type
+      value: 
+      objectReference: {fileID: 5964439755024053827, guid: 524de901156f5614593461b020269e26, type: 3}
+    - target: {fileID: 1358093579105193152, guid: 31e6f04de6525c94ea87016f751582cf, type: 3}
       propertyPath: isLocked
       value: 1
       objectReference: {fileID: 0}
@@ -20107,6 +20113,10 @@ PrefabInstance:
       propertyPath: rightPanel
       value: 
       objectReference: {fileID: 82555236}
+    - target: {fileID: 1711470482571873549, guid: 31e6f04de6525c94ea87016f751582cf, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 45
+      objectReference: {fileID: 0}
     - target: {fileID: 2295023331761820252, guid: 31e6f04de6525c94ea87016f751582cf, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -24092,7 +24102,6 @@ MonoBehaviour:
   waveText: {fileID: 541629092}
   enemiesPerWave: 3
   scalingFactor: 0.75
-  maxWaves: 3
   spawnRadius: 4
 --- !u!4 &1866071498
 Transform:
@@ -24123,8 +24132,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 82555237}
     m_Modifications:
     - target: {fileID: 1358093579105193152, guid: 31e6f04de6525c94ea87016f751582cf, type: 3}
+      propertyPath: Type
+      value: 
+      objectReference: {fileID: 8794023090411415873, guid: 97f0f78342c8607439b5fba4338436af, type: 3}
+    - target: {fileID: 1358093579105193152, guid: 31e6f04de6525c94ea87016f751582cf, type: 3}
       propertyPath: price
-      value: 25
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1358093579105193152, guid: 31e6f04de6525c94ea87016f751582cf, type: 3}
+      propertyPath: isSpell
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1358093579105193152, guid: 31e6f04de6525c94ea87016f751582cf, type: 3}
       propertyPath: theLevel
@@ -24142,6 +24159,18 @@ PrefabInstance:
       propertyPath: rightPanel
       value: 
       objectReference: {fileID: 82555236}
+    - target: {fileID: 1711470482571873549, guid: 31e6f04de6525c94ea87016f751582cf, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 2295023331761820252, guid: 31e6f04de6525c94ea87016f751582cf, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 5353841184698615464, guid: aba459490b2df41429fc670993225f81, type: 3}
+    - target: {fileID: 2295023331761820252, guid: 31e6f04de6525c94ea87016f751582cf, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3213951289071930143, guid: 31e6f04de6525c94ea87016f751582cf, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -24222,6 +24251,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6342980048006308051, guid: 31e6f04de6525c94ea87016f751582cf, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 5980403663286653883, guid: 2833e1f2abdd60841a66209aa3f95a80, type: 3}
     - target: {fileID: 7336564215442758195, guid: 31e6f04de6525c94ea87016f751582cf, type: 3}
       propertyPath: m_Name
       value: SpellSlot (1)

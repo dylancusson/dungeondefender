@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 8794023090411415873}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.97, y: -7.03, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -83,6 +83,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   lifetime: 0.25
+  explosionPrefab: {fileID: 7846075351951998815, guid: 3b0c4fa83bc63934da4a45eee2a0a48b, type: 3}
 --- !u!50 &7006882998088856111
 Rigidbody2D:
   serializedVersion: 5
