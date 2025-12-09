@@ -18,7 +18,6 @@ public class Pause : MonoBehaviour
         {
             tutorialOpen = true;
             TutorialMenu.SetActive(true);
-            Time.timeScale = 0f;
         }
     }
 
@@ -26,7 +25,6 @@ public class Pause : MonoBehaviour
     {
         tutorialOpen = false;
         TutorialMenu.SetActive(false);
-        Time.timeScale = 1f;
     }
 
     public void Update()
@@ -49,5 +47,11 @@ public class Pause : MonoBehaviour
             PauseMenu.SetActive(false);
             Time.timeScale = 1f;
         }
+    }
+
+    public void QuitFromPause()
+    {
+        Time.timeScale = 1f;
+        SceneController.instance.menuScene();
     }
 }

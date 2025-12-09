@@ -2,52 +2,48 @@ using UnityEngine;
 
 public class MoveCamera : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    [SerializeField] private float speed;
+    [Header("Settings")]
+    [SerializeField] private float speed = 10f;
 
-    //public float speed = 1f;
+    [Header("Level Boundaries")]
+    // Define the positive limits. The script assumes the level is centered at 0,0
+    // so it limits between -xLimit and +xLimit.
+    [SerializeField] private float xLimit = 20f;
+    [SerializeField] private float yLimit = 15f;
 
-    // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.A) && (transform.position.x >= -12.5) && (Input.GetKey(KeyCode.W) && (transform.position.y <= 6.5)))
-        {
-            transform.position += ((Vector3.left / 3 + Vector3.up / 2) * Time.deltaTime * speed) ;
-        }
+        // 1. Reset movement vector every frame
+        Vector3 movement = Vector3.zero;
 
-        else if (Input.GetKey(KeyCode.D) && (transform.position.x <= 12.5) && (Input.GetKey(KeyCode.W) && (transform.position.y <= 6.5)))
-        {
-            transform.position += ((Vector3.right / 3 + Vector3.up / 2) * Time.deltaTime * speed);
-        }
+        // 2. Build the movement vector based on Input
+        // (Using GetKey allows for smooth continuous checking)
+        if (Input.GetKey(KeyCode.W)) movement.y += 1;
+        if (Input.GetKey(KeyCode.S)) movement.y -= 1;
+        if (Input.GetKey(KeyCode.A)) movement.x -= 1;
+        if (Input.GetKey(KeyCode.D)) movement.x += 1;
 
-        else if (Input.GetKey(KeyCode.A) && (transform.position.x >= -12.5) && (Input.GetKey(KeyCode.S) && (transform.position.y >= -9)))
-        {
-            transform.position += ((Vector3.left / 3 + Vector3.down / 2) * Time.deltaTime * speed);
-        }
+        // 3. Normalize to prevent faster diagonal movement
+        movement = movement.normalized;
 
-        else if (Input.GetKey(KeyCode.D) && (transform.position.x <= 12.5) && (Input.GetKey(KeyCode.S) && (transform.position.y >= -9)))
-        {
-            transform.position += ((Vector3.right / 3 + Vector3.down / 2) * Time.deltaTime * speed);
-        }
+        // 4. Apply movement to current position
+        // We move the camera freely first...
+        Vector3 targetPosition = transform.position + (movement * speed * Time.deltaTime);
 
-        if (Input.GetKey(KeyCode.A) && (transform.position.x >= -12.5))
-        {
-            transform.position += Vector3.left * Time.deltaTime * speed;
-        }
+        // 5. Clamp the result to keep it within bounds
+        // ...then we snap it back if it went too far.
+        float clampedX = Mathf.Clamp(targetPosition.x, -xLimit, xLimit);
+        float clampedY = Mathf.Clamp(targetPosition.y, -yLimit, yLimit);
 
-        else if (Input.GetKey(KeyCode.D) && (transform.position.x <= 12.5))
-        {
-            transform.position += Vector3.right * Time.deltaTime * speed;
-        }
-
-        else if (Input.GetKey(KeyCode.W) && (transform.position.y <= 6.5))
-        {
-            transform.position += Vector3.up * Time.deltaTime * speed;
-        }
-
-        else if (Input.GetKey(KeyCode.S) && (transform.position.y >= -9))
-        {
-            transform.position += Vector3.down * Time.deltaTime * speed;
-        }
+        // 6. Update the actual transform
+        transform.position = new Vector3(clampedX, clampedY, transform.position.z);
+    }
+    // Draws a red box in the Scene view to show the camera limits
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        // Draw a wire cube representing the bounds
+        // Size is limit * 2 because limits are half-extents (from center to edge)
+        Gizmos.DrawWireCube(Vector3.zero, new Vector3(xLimit * 2, yLimit * 2, 0));
     }
 }

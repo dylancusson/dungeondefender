@@ -25,12 +25,12 @@ public class MeleeCleaveSpecial : SpecialAttack
         foreach (var hitCollider in hitColliders)
         {
             // Check if the collider belongs to an enemy
-            if (hitCollider.CompareTag(targeting.targetTag))
+            if (hitCollider.CompareTag(targeting.enemyTag))
             {
                 CharacterHealth enemyHealth = hitCollider.GetComponent<CharacterHealth>();
                 if (enemyHealth != null)
                 {
-                    SoundFXManager.Instance.playSoundFXClip(SoundEffect, transform, 1f);
+                    SoundFXManager.Instance.playSoundFXClip(SoundEffect, transform, 0.25f);
                     enemyHealth.TakeDamage(2 * stats.currentAttackDmg);
                     myHealth.TakeDamage(-1 * stats.currentAttackDmg); // Heal self for half the damage dealt
 
