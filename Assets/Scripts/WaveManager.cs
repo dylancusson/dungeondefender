@@ -9,11 +9,22 @@ public class WaveManager : MonoBehaviour
     [SerializeField] private Tilemap targetTilemap;
     [SerializeField] private TextMeshProUGUI waveText;
 
+    [Header("Next Level/WinScreen")]
+    [SerializeField] private string nextScene;
+
+    [Header("Win/Lose SFX")]
+    [SerializeField] private AudioClip winSound;
+    [SerializeField] private AudioClip loseSound;
+
     [Header("Wave Settings")]
     [SerializeField] private int enemiesPerWave = 5;
     [SerializeField] private float scalingFactor = 0.75f;
     [SerializeField] public static int maxWaves = 3;
     [SerializeField] private float spawnRadius = 4f;
+
+    [Header("Indicators")]
+    [SerializeField] GameObject enemySpawn;
+    [SerializeField] GameObject enemyGoal;
 
     private static int currentWave = 0;
     private int enemiesToSpawn;
@@ -36,6 +47,8 @@ public class WaveManager : MonoBehaviour
     private void Start()
     {
         waveText.text = "Wave: 0/" + maxWaves;
+        enemySpawn.SetActive(true);
+        enemyGoal.SetActive(true);
     }
 
     public void StartWave()
@@ -45,10 +58,17 @@ public class WaveManager : MonoBehaviour
             Debug.Log("All waves completed!");
             return;
         }
+
+        if(currentWave == 0)
+        {
+            enemySpawn.SetActive(false);
+            enemyGoal.SetActive(false);
+        }
+
         currentWave++;
         waveText.text = "Wave: " + currentWave + "/" + maxWaves;
         enemiesToSpawn = Mathf.CeilToInt(enemiesPerWave * (1 + (currentWave - 1) * scalingFactor));
-        
+
         while (enemiesToSpawn > 0 && currentWave <= maxWaves)
         {
             SpawnEnemy();
@@ -79,7 +99,7 @@ public class WaveManager : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, spawnRadius);
     }
 
-    public static void CheckWinCondition()
+    /*public static void CheckWinCondition()
     {
         
         if (enemyCount <= 0 && currentWave >= maxWaves)
@@ -88,5 +108,28 @@ public class WaveManager : MonoBehaviour
             // Implement win condition logic here
             SceneManager.LoadScene("YouWin");
         }
+    }*/
+
+    public void Update()
+    {
+        if (enemyCount <= 0 && currentWave >= maxWaves)
+        {
+            Debug.Log("All waves completed! You win!");
+            SceneController.instance.NextScene(nextScene);
+            currentWave = 0;
+        }
+
+        else if (enemyCount <= 0 && currentWave >= 1)
+        {
+            Debug.Log("Starting the next wave!");
+            //Invoke("StartWave", 3.0f);
+            StartWave();
+        }
     }
+
+    /*public void NextScene()
+    {
+        SceneManager.LoadSceneAsync(nextScene);
+        currentWave = 0;
+    }*/
 }

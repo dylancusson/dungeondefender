@@ -75,6 +75,6 @@ public class CharacterTargeting : MonoBehaviour
         {
             return Vector3.zero;
         }
-        
+
     }
 }

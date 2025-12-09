@@ -63,7 +63,7 @@ public class Character : MonoBehaviour
         if (this.tag == "Enemy")
         {
             WaveManager.enemyCount--;
-            WaveManager.CheckWinCondition();
+            //WaveManager.CheckWinCondition();
         }
     }
     // Public method to allow other components (like Health) to change the state
@@ -114,7 +114,7 @@ public class Character : MonoBehaviour
                         // Recalculate if far away, OR if the path is almost done
                         StartMoveToTarget(targeting.target.transform.position);
                         pathRecalculationRate = Time.time + pathRecalculationRate;
-                        
+
                     }
                 }
                 
@@ -146,7 +146,7 @@ public class Character : MonoBehaviour
                 // Die(); // Call death logic like adding score, playing animation, etc
                 SetAnimation("Dead");
                 Debug.Log(gameObject.name + " is dead and will be destroyed.");
-                Invoke("OnDeath", 1f); // Delay to allow death animation
+                Invoke("OnDeath", 0.6f); // Delay to allow death animation
                 if (hasPaidReward == false)
                 {
                     stats.GainGold();
