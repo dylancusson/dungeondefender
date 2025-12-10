@@ -55,23 +55,21 @@ The game is designed to be user-friendly for PC and Web players.
 Production is managed via SCRUM over three main sprints.
 
 **Sprint 1: Foundation (Sept 28 - Oct 20)**
-* Basic Character & Pathfinding AI 
-* Tilemapping & Sprites 
-* Basic Traps & Trigger Systems 
-* Basic UI Implementation 
+* Basic Character & Pathfinding AI - Dylan
+* Tilemapping & Sprites - Nick
+* Basic Traps & Trigger Systems - Le 
+* Basic UI Implementation  - Ryan
 
 **Sprint 2: Mechanics & Expansion (Oct 26 - Nov 17)**
-* Dungeon Room Building System 
-* Improved UI & Game States 
-* Basic Spell System 
-* Improved Pathfinding & Animation 
-* Music & Sound Effects 
+* Improved UI & Game States - Ryan
+* Basic Spell System - Nick
+* Improved Pathfinding & Animation - Dylan
+* Music & Sound Effects - Ryan
 
 **Sprint 3: Polish & Systems (Nov 24 - Dec 8)**
-* Buffs & Debuffs Systems 
-* Spawning & Wave Systems 
-* Character Abilities & Upgrade Systems 
-* Lighting, Particles, and Tutorials 
+* Spawning & Wave Systems - Dylan
+* Character Abilities - Dylan
+* Tutorials - Ryan
 
 ---
 
