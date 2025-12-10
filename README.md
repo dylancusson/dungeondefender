@@ -14,7 +14,7 @@ In **Dungeon Defender**, you are a powerful Warlock defending your lair. As your
 * **Hybrid Gameplay:** A mix of RTS, Tower Defense, and Roguelike mechanics.
 * **Dungeon Building:** Unlock and craft specific dungeon rooms to access new traps and minions.
 * **Traps & Minions:** Deploy spike traps, slowing fields, and barricades, or summon minions like skeletons, orcs, and golems to hold the line.
-* **Powerful Spells:** Unleash high-impact magic like Fireballs or Blizzards. [cite_start]Spells are powerful but have limited uses per level, requiring strategic timing[cite: 35, 44].
+* **Powerful Spells:** Unleash high-impact magic like Fireballs or Blizzards. Spells are powerful but have limited uses per level, requiring strategic timing.
 * **Progression:** Earn souls from slain adventurers to fuel your summons and spells.
 
 ### Game Modes
