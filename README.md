@@ -79,4 +79,8 @@ Production is managed via SCRUM over three main sprints.
 * Dylan Cusson 
 * Ryan Carroll 
 * Nicholas Fensler
-* Huynh Le 
+* Huynh Le
+
+---
+## Disclaimer
+Character, weapon, and tileset assets are paid assets from https://itch.io/profile/anokolisa and are not to be redistributed, edited, or used for any purpose besides Dungeon Defenders.
